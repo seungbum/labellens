@@ -1,0 +1,4 @@
+cbor2==6.1.5
+playwright==1.64.0
+requests==2.34.2
+websockets==17.3

@@ -1,0 +1,62 @@
+name: Measure labelers
+
+# Collects the labeler directory, endpoint probe and label streams from a runner with
+# unrestricted network access, then commits the derived files to a measurement branch.
+# Raw label logs are kept as a workflow artifact only, for one day: they name individual
+# accounts, so download them right after the run and never leave them on a public repository.
+on:
+  workflow_dispatch:
+    inputs:
+      max_full:
+        description: Collect services with more labels than this from a recent window only
+        default: "3000000"
+
+permissions:
+  contents: write
+
+jobs:
+  measure:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Directory and probe
+        run: |
+          python src/list_labelers.py data/labelers.jsonl
+          python src/probe_endpoints.py data/labelers.jsonl data/probe_$(date -u +%Y%m%d).jsonl
+      - name: Collect label streams
+        env:
+          MAX_FULL: ${{ inputs.max_full }}
+        run: |
+          rm -f data/collect_log.jsonl
+          timeout 290m python src/collect.py data/labelers.jsonl data/labels data/collect_log.jsonl || echo "collection stopped at the time limit"
+      - name: Analyze and build snapshot
+        run: |
+          python src/analyze.py data/labelers.jsonl data/collect_log.jsonl data/labels data/network_raw.json
+          python src/build_snapshot.py data/labelers.jsonl $(ls data/probe_*.jsonl | tail -1) data/collect_log.jsonl data/labels data/snapshot data/snapshot_subjects.txt
+          tar -czf data/snapshot.tgz -C data snapshot
+          python src/lens_sample.py data/labels data/labelers.jsonl 1000 data/lens_sample
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: labels-${{ github.run_id }}
+          path: |
+            data/labels/
+            data/snapshot.tgz
+            data/lens_sample/
+          retention-days: 1
+      - name: Commit derived files
+        if: always()
+        run: |
+          branch=measurement-$(date -u +%Y%m%d-%H%M)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898099+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add data/labelers.jsonl data/probe_*.jsonl data/collect_log.jsonl
+          git add data/network_raw.json || true
+          git commit -m "Measurement run ${{ github.run_id }} from GitHub Actions"
+          git push origin "$branch"

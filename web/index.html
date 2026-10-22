@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LabelLens</title>
+  <meta name="description" content="Ask every Bluesky labeler about one post or account, and see how it looks under different moderation subscriptions.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <h1>LabelLens</h1>
+      <p class="lede">Bluesky lets anyone run a moderation service (a <em>labeler</em>) and lets every user pick which ones to trust.
+        Paste a post or an account to ask all <span id="dir-count">…</span> public labelers about it at once,
+        then compare how it looks to different people.</p>
+      <nav class="tabs"><a href="./" aria-current="page">Inspect</a><a href="network.html">Network</a><a href="about.html">About</a></nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <form id="form" class="ask">
+      <label for="target" class="sr-only">Bluesky post link, at:// URI or handle</label>
+      <input id="target" type="text" autocomplete="off" spellcheck="false"
+             placeholder="https://bsky.app/profile/…/post/…  or  handle.bsky.social">
+      <button type="submit">Ask every labeler</button>
+    </form>
+    <p class="examples">Try: <span id="examples"></span></p>
+    <p id="error" class="error" role="alert"></p>
+
+    <div id="results" hidden>
+      <div class="grid">
+        <div>
+          <h2>Item</h2>
+          <div id="subject"></div>
+        </div>
+        <div>
+          <h2>Census</h2>
+          <div id="progress" aria-live="polite"></div>
+          <p id="timing" class="muted small"></p>
+        </div>
+      </div>
+
+      <h2>Four people, four feeds</h2>
+      <p id="lens-summary" class="summary"></p>
+      <div id="lenses"></div>
+
+      <h2>What each labeler says</h2>
+      <p class="muted small">Struck-through labels were retracted; faded ones have expired. A dashed outline marks a value the labeler never declared, which clients silently ignore.</p>
+      <div id="census"></div>
+    </div>
+  </main>
+
+  <footer class="wrap muted small">
+    Labeler directory from <span id="dir-date">…</span>. Everything runs in your browser against public Bluesky and labeler APIs; nothing is stored.
+    <a href="https://github.com/seungbum/labellens">Source</a>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

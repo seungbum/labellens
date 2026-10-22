@@ -1,0 +1,40 @@
+\documentclass[sigconf,screen,review]{acmart}
+\settopmatter{printacmref=false}
+\setcopyright{none}
+\acmConference[WWW Companion '27]{Companion Proceedings of the ACM Web Conference 2027}{May 10--14, 2027}{Dublin, Ireland}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{xspace}
+% Every \pending{} must be resolved before submission.
+\newcommand{\pending}[1]{\textcolor{red}{[PENDING: #1]}}
+\input{numbers}
+
+\begin{document}
+\sloppy
+\title{LabelLens: Seeing a Bluesky Post Through Other People's Moderation}
+\author{Seungbum Ju}
+\affiliation{\institution{Samsung Electronics}\city{Seoul}\country{Republic of Korea}}
+\email{seungbum.ju@samsung.com}
+
+\begin{abstract}
+\input{sections/abstract}
+\end{abstract}
+\ccsdesc[500]{Information systems~Social networking sites}
+\ccsdesc[300]{Human-centered computing~Collaborative and social computing systems and tools}
+\keywords{decentralized social media, Bluesky, AT Protocol, content moderation, labeling, transparency}
+\maketitle
+
+\input{sections/intro}
+\input{sections/system}
+\input{sections/evaluation}
+\input{sections/demo}
+\input{sections/related}
+\input{sections/ethics}
+
+\begin{acks}
+\input{sections/genai}
+\end{acks}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{refs}
+\end{document}
