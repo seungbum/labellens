@@ -1,0 +1,7383 @@
+{
+ "generated": "2026-10-21T09:04:30Z",
+ "labelers_total": 571,
+ "collected": 172,
+ "per_labeler": {
+  "did:plc:vfibt4bgozsdx6rnnnpha3x7": {
+   "labels": 166844,
+   "negations": 297,
+   "expiring": 165338,
+   "inert": 1246,
+   "active": 43266,
+   "active_subjects": 25452,
+   "retracted_pairs": 297,
+   "kinds": {
+    "account": 166844
+   },
+   "first": "2025-03-20T17:27:16.235Z",
+   "last": "2026-10-21T08:31:47.016Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "atmosphere",
+     11722
+    ],
+    [
+     "so-sprk",
+     7251
+    ],
+    [
+     "site-standard",
+     7018
+    ],
+    [
+     "social-grain",
+     2500
+    ],
+    [
+     "other",
+     2492
+    ],
+    [
+     "place-stream",
+     2452
+    ],
+    [
+     "sh-tangled",
+     1983
+    ],
+    [
+     "com-germnetwork",
+     1089
+    ]
+   ],
+   "handle": "recordcollector.edavis.dev",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 180
+  },
+  "did:plc:xxuec5mzrpes75qdgr5bjn5j": {
+   "labels": 2,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 2,
+   "active": 2,
+   "active_subjects": 2,
+   "retracted_pairs": 0,
+   "kinds": {
+    "post": 2
+   },
+   "first": "2025-03-20T00:21:46.029Z",
+   "last": "2025-03-21T18:23:45.279Z",
+   "latency_s": {
+    "n": 2,
+    "p50": 21827.07,
+    "p90": 21827.07
+   },
+   "top_values": [
+    [
+     "Banger lvl1",
+     2
+    ]
+   ],
+   "handle": "bangers-labeler.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 2
+  },
+  "did:plc:mcskx665cnmnkgqnunk6lkrk": {
+   "labels": 14,
+   "negations": 10,
+   "expiring": 0,
+   "inert": 5,
+   "active": 4,
+   "active_subjects": 3,
+   "retracted_pairs": 10,
+   "kinds": {
+    "post": 13,
+    "account": 1
+   },
+   "first": "2024-03-15T07:00:08.205Z",
+   "last": "2025-08-04T22:34:25.683Z",
+   "latency_s": {
+    "n": 4,
+    "p50": 28175418.443289,
+    "p90": 28175418.443289
+   },
+   "top_values": [
+    [
+     "spoilers",
+     2
+    ],
+    [
+     "!no-promote",
+     1
+    ],
+    [
+     "!no-unauthenticated",
+     1
+    ]
+   ],
+   "handle": "wyvern.blue",
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 1
+  },
+  "did:plc:7vzxsnclvlq6so23q26ydgra": {
+   "labels": 6093,
+   "negations": 1554,
+   "expiring": 0,
+   "inert": 0,
+   "active": 592,
+   "active_subjects": 318,
+   "retracted_pairs": 398,
+   "kinds": {
+    "account": 6093
+   },
+   "first": "2025-02-19T23:07:46.501Z",
+   "last": "2026-10-07T21:21:56.232Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "liaison-committee--commons-",
+     19
+    ],
+    [
+     "panel-of-chairs",
+     14
+    ],
+    [
+     "immigration-and-asylum-bill-committee",
+     12
+    ],
+    [
+     "procedure-committee",
+     11
+    ],
+    [
+     "cyber-security---resilience-bill-committee",
+     11
+    ],
+    [
+     "dogs--protection-of-livestock---amendment--bill-committee",
+     10
+    ],
+    [
+     "select-committee-on-the-armed-forces-bill",
+     10
+    ],
+    [
+     "modernisation-committee",
+     9
+    ]
+   ],
+   "handle": "roles.mplabeller.uk",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 10
+  },
+  "did:plc:ky4xpa3rx6x237fyhpcxelnr": {
+   "labels": 7432,
+   "negations": 29,
+   "expiring": 0,
+   "inert": 0,
+   "active": 394,
+   "active_subjects": 394,
+   "retracted_pairs": 5,
+   "kinds": {
+    "account": 7432
+   },
+   "first": "2025-02-18T23:14:54.303Z",
+   "last": "2026-10-07T21:21:59.874Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "blyth-and-ashington",
+     1
+    ],
+    [
+     "sunderland-central",
+     1
+    ],
+    [
+     "swindon-south",
+     1
+    ],
+    [
+     "washington-and-gateshead-south",
+     1
+    ],
+    [
+     "newcastle-upon-tyne-central-and-west",
+     1
+    ],
+    [
+     "gateshead-central-and-whickham",
+     1
+    ],
+    [
+     "cramlington-and-killingworth",
+     1
+    ],
+    [
+     "harrogate-and-knaresborough",
+     1
+    ]
+   ],
+   "handle": "constituencies.mplabeller.uk",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 7
+  },
+  "did:plc:ylmdlijvrvgbe4md6v4dyce6": {
+   "labels": 21266,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 816,
+   "active_subjects": 136,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 21212,
+    "non-atproto": 54
+   },
+   "first": "2024-11-22T22:38:12.783Z",
+   "last": "2026-02-11T15:22:38.821Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "lawyers-law-firms",
+     99
+    ],
+    [
+     "retired",
+     99
+    ],
+    [
+     "securities---investment",
+     58
+    ],
+    [
+     "american-israel-public-affairs-cmte",
+     32
+    ],
+    [
+     "real-estate",
+     31
+    ],
+    [
+     "health-professionals",
+     25
+    ],
+    [
+     "jstreetpac",
+     23
+    ],
+    [
+     "university-of-california",
+     21
+    ]
+   ],
+   "handle": "us-gov-funding.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 1654
+  },
+  "did:web:cgv.hukoubook.com": {
+   "labels": 1,
+   "negations": 1,
+   "expiring": 0,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 1,
+   "kinds": {
+    "account": 1
+   },
+   "first": "2026-10-21T08:33:06.360Z",
+   "last": "2026-10-21T08:33:06.360Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": "cgv.hukoubook.com",
+   "category": "protective",
+   "windowed": true,
+   "likes": 42,
+   "accounts": 0,
+   "accounts_colabelled": 0
+  },
+  "did:plc:jp6khwtiduqw7y5hm75vh6ve": {
+   "labels": 1,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 1,
+   "active_subjects": 1,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 1
+   },
+   "first": "2024-10-31T21:00:15.887Z",
+   "last": "2024-10-31T21:00:15.887Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "relation-cechjc-boundary",
+     1
+    ]
+   ],
+   "handle": "locate.aviva.gay",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 10
+  },
+  "did:plc:hr236rnywyk3xjl4vt4emyc3": {
+   "labels": 16287,
+   "negations": 3132,
+   "expiring": 0,
+   "inert": 141,
+   "active": 13155,
+   "active_subjects": 5067,
+   "retracted_pairs": 3132,
+   "kinds": {
+    "account": 16284,
+    "post": 1,
+    "profile": 2
+   },
+   "first": "2024-10-22T02:15:27.484Z",
+   "last": "2026-10-18T19:59:36.235Z",
+   "latency_s": {
+    "n": 1,
+    "p50": 5452.312431,
+    "p90": 5452.312431
+   },
+   "top_values": [
+    [
+     "artist",
+     3119
+    ],
+    [
+     "nsfw-label",
+     1164
+    ],
+    [
+     "comms-open",
+     953
+    ],
+    [
+     "two-d-artist",
+     787
+    ],
+    [
+     "digital",
+     528
+    ],
+    [
+     "streamer",
+     515
+    ],
+    [
+     "writer",
+     485
+    ],
+    [
+     "fursuiter",
+     404
+    ]
+   ],
+   "handle": "furskycreators.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 1238
+  },
+  "did:plc:fcikraffwejtuqffifeykcml": {
+   "labels": 261942,
+   "negations": 1514,
+   "expiring": 2,
+   "inert": 130882,
+   "active": 260426,
+   "active_subjects": 199513,
+   "retracted_pairs": 1512,
+   "kinds": {
+    "post": 253312,
+    "account": 8620,
+    "other-record": 4,
+    "profile": 6
+   },
+   "first": "2024-03-17T03:15:22.135Z",
+   "last": "2026-10-21T03:35:48.404Z",
+   "latency_s": {
+    "n": 195743,
+    "p50": 2.336605,
+    "p90": 10.365
+   },
+   "top_values": [
+    [
+     "dawntrail-contents",
+     59266
+    ],
+    [
+     "dawntrail",
+     45802
+    ],
+    [
+     "latest-patch-contents",
+     26484
+    ],
+    [
+     "endwalker",
+     25495
+    ],
+    [
+     "shadowbringers",
+     25387
+    ],
+    [
+     "latest-patch",
+     25192
+    ],
+    [
+     "endwalker-contents",
+     22876
+    ],
+    [
+     "shadowbringers-contents",
+     22241
+    ]
+   ],
+   "handle": "label.wol.blue",
+   "category": "protective",
+   "windowed": false,
+   "likes": 838,
+   "accounts": 2938,
+   "accounts_colabelled": 298
+  },
+  "did:plc:7m7xz5ekdmw3tephpgn72ooz": {
+   "labels": 4586,
+   "negations": 2746,
+   "expiring": 0,
+   "inert": 8,
+   "active": 1840,
+   "active_subjects": 1138,
+   "retracted_pairs": 2746,
+   "kinds": {
+    "account": 4586
+   },
+   "first": "2024-08-30T10:18:39.524Z",
+   "last": "2026-10-21T07:20:07.642Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "transgender-flag",
+     177
+    ],
+    [
+     "rainbow-flag",
+     130
+    ],
+    [
+     "shrug",
+     102
+    ],
+    [
+     "video-game",
+     75
+    ],
+    [
+     "low-battery",
+     63
+    ],
+    [
+     "books",
+     52
+    ],
+    [
+     "jack-o-lantern",
+     47
+    ],
+    [
+     "listening-music",
+     47
+    ]
+   ],
+   "handle": "moods.fran.pw",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 451
+  },
+  "did:plc:owlalsqd2qu64kv3h7klt24t": {
+   "labels": 1291,
+   "negations": 60,
+   "expiring": 0,
+   "inert": 7,
+   "active": 1231,
+   "active_subjects": 937,
+   "retracted_pairs": 60,
+   "kinds": {
+    "account": 1282,
+    "profile": 9
+   },
+   "first": "2024-10-21T14:08:36.968Z",
+   "last": "2026-10-21T01:32:46.266Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "godot",
+     508
+    ],
+    [
+     "unreal",
+     154
+    ],
+    [
+     "unity",
+     151
+    ],
+    [
+     "gamemaker",
+     110
+    ],
+    [
+     "custom-engine",
+     58
+    ],
+    [
+     "rpg-maker",
+     27
+    ],
+    [
+     "renpy",
+     20
+    ],
+    [
+     "gbstudio",
+     20
+    ]
+   ],
+   "handle": "gameengines.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 477
+  },
+  "did:plc:c5d5thu6uwhb5odxgk7ejvni": {
+   "labels": 4142,
+   "negations": 159,
+   "expiring": 0,
+   "inert": 113,
+   "active": 3983,
+   "active_subjects": 3317,
+   "retracted_pairs": 159,
+   "kinds": {
+    "account": 1585,
+    "profile": 14,
+    "post": 2538,
+    "other-record": 5
+   },
+   "first": "2025-04-13T02:15:36.480Z",
+   "last": "2026-10-20T18:59:09.470Z",
+   "latency_s": {
+    "n": 2513,
+    "p50": 14245.795359,
+    "p90": 171892.396
+   },
+   "top_values": [
+    [
+     "clutter",
+     931
+    ],
+    [
+     "carbrain",
+     851
+    ],
+    [
+     "anti-cyclist",
+     819
+    ],
+    [
+     "garbage",
+     273
+    ],
+    [
+     "victim-blaming",
+     160
+    ],
+    [
+     "nimby",
+     146
+    ],
+    [
+     "spam-uplus",
+     99
+    ],
+    [
+     "!hide",
+     95
+    ]
+   ],
+   "handle": "labeler.urbanism.plus",
+   "category": "protective",
+   "windowed": false,
+   "likes": 178,
+   "accounts": 1079,
+   "accounts_colabelled": 228
+  },
+  "did:plc:cquoj7aozvmkud2gifeinkda": {
+   "labels": 56,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 56,
+   "active_subjects": 56,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 38,
+    "post": 18
+   },
+   "first": "2025-04-14T16:58:37.044Z",
+   "last": "2026-08-13T18:10:31.373Z",
+   "latency_s": {
+    "n": 18,
+    "p50": 4660315.779,
+    "p90": 54598115.971
+   },
+   "top_values": [
+    [
+     "!hide",
+     56
+    ]
+   ],
+   "handle": "moderation-tr.bsky.app",
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 2
+  },
+  "did:plc:zqd356xnvxea3v4wmrg7emwa": {
+   "labels": 3986,
+   "negations": 1273,
+   "expiring": 0,
+   "inert": 5,
+   "active": 2713,
+   "active_subjects": 981,
+   "retracted_pairs": 1273,
+   "kinds": {
+    "account": 3986
+   },
+   "first": "2024-12-23T17:36:16.585Z",
+   "last": "2026-10-20T23:04:31.452Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "non-binary",
+     202
+    ],
+    [
+     "bisexual",
+     192
+    ],
+    [
+     "transgender",
+     175
+    ],
+    [
+     "transfeminine",
+     148
+    ],
+    [
+     "lesbian",
+     145
+    ],
+    [
+     "queer",
+     140
+    ],
+    [
+     "lgbtqia-safe-space",
+     134
+    ],
+    [
+     "polyamorous",
+     131
+    ]
+   ],
+   "handle": "pridelabeller.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 330
+  },
+  "did:plc:z3yk2cflhmn6vmzo3f5ixqh4": {
+   "labels": 4675,
+   "negations": 813,
+   "expiring": 42,
+   "inert": 284,
+   "active": 3825,
+   "active_subjects": 2794,
+   "retracted_pairs": 808,
+   "kinds": {
+    "account": 4474,
+    "profile": 53,
+    "post": 148
+   },
+   "first": "2024-05-11T10:15:09.569Z",
+   "last": "2026-10-20T23:30:05.693Z",
+   "latency_s": {
+    "n": 43,
+    "p50": 382.967,
+    "p90": 146101.402781
+   },
+   "top_values": [
+    [
+     "support",
+     986
+    ],
+    [
+     "author",
+     728
+    ],
+    [
+     "kindheart",
+     244
+    ],
+    [
+     "artist",
+     201
+    ],
+    [
+     "g-uglydogs",
+     153
+    ],
+    [
+     "legend",
+     123
+    ],
+    [
+     "news",
+     102
+    ],
+    [
+     "comics",
+     73
+    ]
+   ],
+   "handle": "yardcrow.com",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 1033
+  },
+  "did:plc:xpxsa5aviwecd7cv6bzbmr5n": {
+   "labels": 934,
+   "negations": 270,
+   "expiring": 0,
+   "inert": 2,
+   "active": 384,
+   "active_subjects": 214,
+   "retracted_pairs": 172,
+   "kinds": {
+    "account": 934
+   },
+   "first": "2024-11-11T01:04:01.474Z",
+   "last": "2026-10-16T11:52:19.472Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "bluesky-social-social-app",
+     9
+    ],
+    [
+     "npmx-dev-npmx-dev",
+     5
+    ],
+    [
+     "storybookjs-storybook",
+     3
+    ],
+    [
+     "facebook-react",
+     3
+    ],
+    [
+     "nuxt-nuxt",
+     3
+    ],
+    [
+     "nixos-nixpkgs",
+     3
+    ],
+    [
+     "ueberdosis-tiptap",
+     2
+    ],
+    [
+     "reduxjs-redux-toolkit",
+     2
+    ]
+   ],
+   "handle": "github-labeler.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 476
+  },
+  "did:plc:zyxce5wor3mw7mky55uq4qzo": {
+   "labels": 0,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 0,
+   "kinds": {},
+   "first": null,
+   "last": null,
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": "handle.invalid",
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 1
+  },
+  "did:plc:7s5echp3dzm2y5kxfe3mwzon": {
+   "labels": 9914,
+   "negations": 2178,
+   "expiring": 7736,
+   "inert": 8901,
+   "active": 453,
+   "active_subjects": 254,
+   "retracted_pairs": 665,
+   "kinds": {
+    "account": 9914
+   },
+   "first": "2025-05-16T17:40:37.426465Z",
+   "last": "2026-10-20T21:27:30.912305Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "midwest-furfest-mmxxvi",
+     58
+    ],
+    [
+     "anthro-new-england-mmxxvii",
+     40
+    ],
+    [
+     "furpocalypse-mmxxvi",
+     32
+    ],
+    [
+     "anthrocon-mmxxvii",
+     32
+    ],
+    [
+     "furry-weekend-atlanta-mmxxvii",
+     31
+    ],
+    [
+     "biggest-little-fur-con-mmxxvi",
+     26
+    ],
+    [
+     "nordicfuzzcon-mmxxvii",
+     22
+    ],
+    [
+     "texas-furry-fiesta-mmxxvii",
+     21
+    ]
+   ],
+   "handle": "cons.fyi",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 197
+  },
+  "did:plc:v6t3eplhoa5fs5xqphtvupnb": {
+   "labels": 467,
+   "negations": 147,
+   "expiring": 0,
+   "inert": 0,
+   "active": 173,
+   "active_subjects": 173,
+   "retracted_pairs": 71,
+   "kinds": {
+    "account": 467
+   },
+   "first": "2024-11-15T01:45:34.197Z",
+   "last": "2026-10-07T17:17:01.565Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "turtle",
+     110
+    ],
+    [
+     "snake",
+     23
+    ],
+    [
+     "frog",
+     20
+    ],
+    [
+     "slug",
+     11
+    ],
+    [
+     "gecko",
+     5
+    ],
+    [
+     "snail",
+     4
+    ]
+   ],
+   "handle": "fujinlabeler.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 63
+  },
+  "did:plc:m4z7d2wfa7lovi7toqwpjwr6": {
+   "labels": 1563,
+   "negations": 860,
+   "expiring": 0,
+   "inert": 0,
+   "active": 431,
+   "active_subjects": 255,
+   "retracted_pairs": 552,
+   "kinds": {
+    "account": 1563
+   },
+   "first": "2024-11-19T01:27:00.110Z",
+   "last": "2025-02-24T16:49:31.148Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "explicit",
+     131
+    ],
+    [
+     "choose-not-to-use",
+     82
+    ],
+    [
+     "mature",
+     51
+    ],
+    [
+     "non-con",
+     38
+    ],
+    [
+     "graphic-violence",
+     28
+    ],
+    [
+     "major-death",
+     26
+    ],
+    [
+     "teen-and-up",
+     23
+    ],
+    [
+     "no-warnings",
+     17
+    ]
+   ],
+   "handle": "ao3labeler.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 145
+  },
+  "did:plc:srr4rdvgzkbx6t7fxqtt6j5t": {
+   "labels": 1,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 1,
+   "active_subjects": 1,
+   "retracted_pairs": 0,
+   "kinds": {
+    "post": 1
+   },
+   "first": "2026-02-19T14:18:24.748Z",
+   "last": "2026-02-19T14:18:24.748Z",
+   "latency_s": {
+    "n": 1,
+    "p50": 859890.036,
+    "p90": 859890.036
+   },
+   "top_values": [
+    [
+     "!hide",
+     1
+    ]
+   ],
+   "handle": "moderation-in.bsky.app",
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:2qawvcwumvgxmed6iy6pmt6l": {
+   "labels": 23500,
+   "negations": 3942,
+   "expiring": 0,
+   "inert": 1030,
+   "active": 19558,
+   "active_subjects": 11025,
+   "retracted_pairs": 3942,
+   "kinds": {
+    "profile": 12,
+    "account": 23487,
+    "post": 1
+   },
+   "first": "2024-08-08T04:30:54.325Z",
+   "last": "2024-11-10T18:04:32.471Z",
+   "latency_s": {
+    "n": 1,
+    "p50": 3237373.252,
+    "p90": 3237373.252
+   },
+   "top_values": [
+    [
+     "dragon",
+     1005
+    ],
+    [
+     "cat",
+     798
+    ],
+    [
+     "fox",
+     683
+    ],
+    [
+     "wolf",
+     672
+    ],
+    [
+     "hybrid",
+     562
+    ],
+    [
+     "dog",
+     506
+    ],
+    [
+     "shapeshifter",
+     470
+    ],
+    [
+     "rabbit",
+     401
+    ]
+   ],
+   "handle": "sonasky.app",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 5806
+  },
+  "did:plc:avy6ofacxe26c6x3jcizas6l": {
+   "labels": 1007342,
+   "negations": 7145,
+   "expiring": 13,
+   "inert": 442,
+   "active": 1000184,
+   "active_subjects": 998116,
+   "retracted_pairs": 7145,
+   "kinds": {
+    "post": 988900,
+    "account": 18397,
+    "profile": 29,
+    "other-record": 16
+   },
+   "first": "2024-12-20T19:15:42.902Z",
+   "last": "2026-10-16T18:28:46.511Z",
+   "latency_s": {
+    "n": 194619,
+    "p50": 37.219999,
+    "p90": 61.625
+   },
+   "top_values": [
+    [
+     "spam",
+     944789
+    ],
+    [
+     "potential-scam",
+     27963
+    ],
+    [
+     "fomo-inducer",
+     13447
+    ],
+    [
+     "shilling-crypto",
+     9180
+    ],
+    [
+     "bot-activity",
+     2539
+    ],
+    [
+     "fake-account",
+     1106
+    ],
+    [
+     "misleading",
+     549
+    ],
+    [
+     "airdrop",
+     278
+    ]
+   ],
+   "handle": "cryptolabeler.sats4.life",
+   "category": "protective",
+   "windowed": false,
+   "likes": 61,
+   "accounts": 10410,
+   "accounts_colabelled": 1219
+  },
+  "did:plc:lcdcygpdeiittdmdeddxwt4w": {
+   "labels": 1494,
+   "negations": 335,
+   "expiring": 0,
+   "inert": 40,
+   "active": 1159,
+   "active_subjects": 1156,
+   "retracted_pairs": 335,
+   "kinds": {
+    "account": 1490,
+    "post": 3,
+    "other-record": 1
+   },
+   "first": "2024-07-24T07:54:53.575Z",
+   "last": "2026-10-19T21:46:43.601Z",
+   "latency_s": {
+    "n": 1,
+    "p50": 2483270.748673,
+    "p90": 2483270.748673
+   },
+   "top_values": [
+    [
+     "open-zoo",
+     869
+    ],
+    [
+     "interacts-with-zoos",
+     122
+    ],
+    [
+     "zoo-supporter",
+     84
+    ],
+    [
+     "outed-zoo",
+     81
+    ],
+    [
+     "!hide",
+     3
+    ]
+   ],
+   "handle": "laelaps.fyi",
+   "category": "protective",
+   "windowed": false,
+   "likes": 1310,
+   "accounts": 1155,
+   "accounts_colabelled": 992
+  },
+  "did:plc:e4elbtctnfqocyfcml6h2lf7": {
+   "labels": 2822958,
+   "negations": 5461,
+   "expiring": 110817,
+   "inert": 18264,
+   "active": 2703999,
+   "active_subjects": 2631488,
+   "retracted_pairs": 5460,
+   "kinds": {
+    "post": 2627082,
+    "account": 191969,
+    "profile": 5,
+    "other-record": 3902
+   },
+   "first": "2025-11-26T08:51:03.818Z",
+   "last": "2026-10-21T08:31:43.527Z",
+   "latency_s": {
+    "n": 197038,
+    "p50": 2.675,
+    "p90": 13.096964
+   },
+   "top_values": [
+    [
+     "spam",
+     1409117
+    ],
+    [
+     "fundraising-link",
+     631841
+    ],
+    [
+     "fringe-media",
+     309508
+    ],
+    [
+     "alt-tech",
+     81368
+    ],
+    [
+     "contains-slur",
+     63981
+    ],
+    [
+     "prediction-betting",
+     45987
+    ],
+    [
+     "follow-farming",
+     33684
+    ],
+    [
+     "disinformation-network",
+     28815
+    ]
+   ],
+   "handle": "skywatch.blue",
+   "category": "protective",
+   "windowed": true,
+   "likes": 8230,
+   "accounts": 71132,
+   "accounts_colabelled": 15118
+  },
+  "did:plc:skibpmllbhxvbvwgtjxl3uao": {
+   "labels": 721,
+   "negations": 18,
+   "expiring": 2,
+   "inert": 8,
+   "active": 701,
+   "active_subjects": 631,
+   "retracted_pairs": 18,
+   "kinds": {
+    "account": 555,
+    "post": 164,
+    "profile": 2
+   },
+   "first": "2024-03-21T18:44:39.051Z",
+   "last": "2026-09-11T18:18:27.397Z",
+   "latency_s": {
+    "n": 162,
+    "p50": 69932.015968,
+    "p90": 1460128.626
+   },
+   "top_values": [
+    [
+     "cringe",
+     186
+    ],
+    [
+     "mutual-aid",
+     84
+    ],
+    [
+     "accessibility-scolding",
+     75
+    ],
+    [
+     "slug",
+     67
+    ],
+    [
+     "jeremy",
+     61
+    ],
+    [
+     "reposts-without-likes",
+     46
+    ],
+    [
+     "elder-watch",
+     42
+    ],
+    [
+     "follow-back-whining",
+     34
+    ]
+   ],
+   "handle": "anti-aging.bsky.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 178,
+   "accounts": 471,
+   "accounts_colabelled": 124
+  },
+  "did:plc:p2cxrw3ank4dzs55mpm6ohq4": {
+   "labels": 3414,
+   "negations": 199,
+   "expiring": 0,
+   "inert": 196,
+   "active": 3214,
+   "active_subjects": 2368,
+   "retracted_pairs": 197,
+   "kinds": {
+    "account": 1412,
+    "post": 1962,
+    "profile": 29,
+    "other-record": 11
+   },
+   "first": "2025-09-11T09:41:48.158Z",
+   "last": "2026-10-21T00:43:58.794Z",
+   "latency_s": {
+    "n": 1871,
+    "p50": 100415.533,
+    "p90": 10520330.131
+   },
+   "top_values": [
+    [
+     "transphobia",
+     1418
+    ],
+    [
+     "harassment",
+     572
+    ],
+    [
+     "spreading-misinformation",
+     174
+    ],
+    [
+     "misogyny",
+     157
+    ],
+    [
+     "queerphobia",
+     156
+    ],
+    [
+     "ableism",
+     121
+    ],
+    [
+     "xenophobia",
+     118
+    ],
+    [
+     "islamophobia",
+     102
+    ]
+   ],
+   "handle": "moderation.northsky.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 220,
+   "accounts": 860,
+   "accounts_colabelled": 401
+  },
+  "did:plc:q2xsp2z6li7wlzet4ova2edb": {
+   "labels": 23591,
+   "negations": 1057,
+   "expiring": 0,
+   "inert": 415,
+   "active": 22532,
+   "active_subjects": 9745,
+   "retracted_pairs": 1056,
+   "kinds": {
+    "account": 11539,
+    "post": 11918,
+    "profile": 123,
+    "other-record": 11
+   },
+   "first": "2025-07-03T19:19:22.405Z",
+   "last": "2026-10-20T23:16:38.535Z",
+   "latency_s": {
+    "n": 11777,
+    "p50": 111531.641,
+    "p90": 6448850.872
+   },
+   "top_values": [
+    [
+     "democratic-apologia",
+     3682
+    ],
+    [
+     "!warn",
+     3496
+    ],
+    [
+     "leftist-scapegoating",
+     2672
+    ],
+    [
+     "israel-apologia",
+     1533
+    ],
+    [
+     "gaza-genocide-denier",
+     1177
+    ],
+    [
+     "us-genocide-role-denial",
+     1146
+    ],
+    [
+     "transphobic",
+     1134
+    ],
+    [
+     "trans-scapegoating",
+     868
+    ]
+   ],
+   "handle": "shadowbanner.bsky.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 367,
+   "accounts": 4236,
+   "accounts_colabelled": 930
+  },
+  "did:plc:uxjwly6emtgik7juvxxdpl3c": {
+   "labels": 50000,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 40088,
+   "active_subjects": 40088,
+   "retracted_pairs": 0,
+   "kinds": {
+    "post": 50000
+   },
+   "first": "2026-03-08T22:02:14.787Z",
+   "last": "2026-03-11T02:43:15.893Z",
+   "latency_s": {
+    "n": 48924,
+    "p50": 2.15,
+    "p90": 4.967
+   },
+   "top_values": [
+    [
+     "substack",
+     40088
+    ]
+   ],
+   "handle": "labeler.antisubstack.fyi",
+   "category": "descriptive",
+   "windowed": true,
+   "likes": 264
+  },
+  "did:plc:x5i64gpystahcvcizwl7p6ry": {
+   "labels": 25,
+   "negations": 8,
+   "expiring": 2,
+   "inert": 11,
+   "active": 15,
+   "active_subjects": 15,
+   "retracted_pairs": 8,
+   "kinds": {
+    "post": 17,
+    "account": 5,
+    "other-record": 3
+   },
+   "first": "2025-07-17T11:15:49.932Z",
+   "last": "2026-07-24T10:05:43.612Z",
+   "latency_s": {
+    "n": 13,
+    "p50": 245744.188,
+    "p90": 24942625.37
+   },
+   "top_values": [
+    [
+     "rude",
+     9
+    ],
+    [
+     "vabukpahari",
+     2
+    ],
+    [
+     "new-test",
+     2
+    ],
+    [
+     "math",
+     1
+    ],
+    [
+     "soumilabel",
+     1
+    ]
+   ],
+   "handle": "handle.invalid",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 9
+  },
+  "did:plc:oubsyca6hhgqhmbbk27lvs7c": {
+   "labels": 42980,
+   "negations": 0,
+   "expiring": 42980,
+   "inert": 1010,
+   "active": 42980,
+   "active_subjects": 29123,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 42980
+   },
+   "first": "2026-10-18T07:01:56.880Z",
+   "last": "2026-10-20T08:44:54.410Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "monthly-posts-over-twenty-per-day",
+     9603
+    ],
+    [
+     "monthly-replies-over-twenty-per-day",
+     6143
+    ],
+    [
+     "metadata-monthly-changes-low",
+     4616
+    ],
+    [
+     "made-over-thirty-posts-yesterday",
+     3796
+    ],
+    [
+     "made-over-thirty-replies-yesterday",
+     3496
+    ],
+    [
+     "no-gap-more-than-four-hours",
+     2162
+    ],
+    [
+     "made-over-fifty-posts-yesterday",
+     2049
+    ],
+    [
+     "made-over-fifty-replies-yesterday",
+     1576
+    ]
+   ],
+   "handle": "stechlab-labels.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 2613
+  },
+  "did:plc:i54lpx4fcztc55vsaiheypxo": {
+   "labels": 4615,
+   "negations": 1400,
+   "expiring": 0,
+   "inert": 0,
+   "active": 3215,
+   "active_subjects": 2124,
+   "retracted_pairs": 1400,
+   "kinds": {
+    "account": 4615
+   },
+   "first": "2024-10-30T10:38:34.832Z",
+   "last": "2026-10-21T07:26:28.594Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "eevee",
+     133
+    ],
+    [
+     "zorua",
+     127
+    ],
+    [
+     "sylveon",
+     114
+    ],
+    [
+     "umbreon",
+     113
+    ],
+    [
+     "lucario",
+     100
+    ],
+    [
+     "zoroark",
+     95
+    ],
+    [
+     "lycanroc",
+     87
+    ],
+    [
+     "vulpix",
+     78
+    ]
+   ],
+   "handle": "pokemon.sonasky.app",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 771
+  },
+  "did:plc:2dnldc4omasiothhuqbmosyx": {
+   "labels": 42,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 42,
+   "active_subjects": 42,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 41,
+    "profile": 1
+   },
+   "first": "2025-08-07T19:23:20.250Z",
+   "last": "2025-12-22T14:19:37.034Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "signed-harpers-letter",
+     42
+    ]
+   ],
+   "handle": "harpersletter.fyi",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 184
+  },
+  "did:plc:gqtagsooi75obldmytuow57q": {
+   "labels": 32,
+   "negations": 8,
+   "expiring": 1,
+   "inert": 5,
+   "active": 23,
+   "active_subjects": 11,
+   "retracted_pairs": 8,
+   "kinds": {
+    "other-record": 4,
+    "account": 28
+   },
+   "first": "2026-07-03T02:43:46.648Z",
+   "last": "2026-10-20T23:24:36.941Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "nudity",
+     8
+    ],
+    [
+     "sexual",
+     8
+    ],
+    [
+     "porn",
+     6
+    ],
+    [
+     "!warn",
+     1
+    ]
+   ],
+   "handle": "moderation.stream.place",
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 3
+  },
+  "did:plc:mke2awigzwxblidtkjvg5l6d": {
+   "labels": 78,
+   "negations": 75,
+   "expiring": 0,
+   "inert": 0,
+   "active": 3,
+   "active_subjects": 2,
+   "retracted_pairs": 73,
+   "kinds": {
+    "profile": 78
+   },
+   "first": "2026-09-18T17:31:24.638Z",
+   "last": "2026-09-26T05:04:01.947Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "fcschalke",
+     1
+    ],
+    [
+     "bundesliga",
+     1
+    ],
+    [
+     "svdarmstadt",
+     1
+    ]
+   ],
+   "handle": "clubs.danto.rocks",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 45
+  },
+  "did:plc:57fl6zy4wmpuknwpgtjqkvlz": {
+   "labels": 119,
+   "negations": 27,
+   "expiring": 0,
+   "inert": 39,
+   "active": 60,
+   "active_subjects": 48,
+   "retracted_pairs": 20,
+   "kinds": {
+    "post": 119
+   },
+   "first": "2025-08-19T19:20:21.243Z",
+   "last": "2026-09-20T16:23:33.999Z",
+   "latency_s": {
+    "n": 92,
+    "p50": 82054.428,
+    "p90": 3305307.905
+   },
+   "top_values": [
+    [
+     "proposed-annotation",
+     44
+    ],
+    [
+     "annotation",
+     12
+    ],
+    [
+     "needs-context",
+     4
+    ]
+   ],
+   "handle": "bluenotes-labeler.bsky.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 5,
+   "accounts": 0,
+   "accounts_colabelled": 0
+  },
+  "did:plc:jwqm25l6zbkgmorz3k35hf32": {
+   "labels": 1845146,
+   "negations": 72,
+   "expiring": 0,
+   "inert": 822309,
+   "active": 1844850,
+   "active_subjects": 1830490,
+   "retracted_pairs": 71,
+   "kinds": {
+    "post": 1845097,
+    "profile": 6,
+    "account": 41,
+    "other-record": 2
+   },
+   "first": "2024-06-18T03:15:00.633Z",
+   "last": "2026-08-18T10:24:31.330Z",
+   "latency_s": {
+    "n": 199976,
+    "p50": 0.995998,
+    "p90": 1.81798
+   },
+   "top_values": [
+    [
+     "missing-alt-text",
+     648174
+    ],
+    [
+     "has-no-image-post",
+     385221
+    ],
+    [
+     "contains-skeet",
+     335260
+    ],
+    [
+     "reply",
+     240291
+    ],
+    [
+     "contains-pin-emoji",
+     107801
+    ],
+    [
+     "has-image-post",
+     71128
+    ],
+    [
+     "contains-xitter",
+     34707
+    ],
+    [
+     "has-no-image-reply",
+     10166
+    ]
+   ],
+   "handle": "curationkeeper.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 1
+  },
+  "did:plc:d2mkddsbmnrgr3domzg5qexf": {
+   "labels": 24654,
+   "negations": 909,
+   "expiring": 2,
+   "inert": 10603,
+   "active": 23736,
+   "active_subjects": 21759,
+   "retracted_pairs": 896,
+   "kinds": {
+    "post": 11436,
+    "account": 12972,
+    "profile": 144,
+    "other-record": 102
+   },
+   "first": "2024-10-14T20:04:03.351Z",
+   "last": "2026-10-20T20:21:16.514Z",
+   "latency_s": {
+    "n": 10846,
+    "p50": 325723.896998,
+    "p90": 2632620.700013
+   },
+   "top_values": [
+    [
+     "!takedown",
+     10062
+    ],
+    [
+     "antiblack-harassment",
+     8801
+    ],
+    [
+     "misogynoir",
+     1527
+    ],
+    [
+     "white-supremacy",
+     739
+    ],
+    [
+     "!hide",
+     497
+    ],
+    [
+     "!warn",
+     444
+    ],
+    [
+     "synthetic-media",
+     440
+    ],
+    [
+     "sexual",
+     425
+    ]
+   ],
+   "handle": "moderation.blacksky.app",
+   "category": "protective",
+   "windowed": false,
+   "likes": 6577,
+   "accounts": 12160,
+   "accounts_colabelled": 2004
+  },
+  "did:plc:cyq63siet7w7fyt3csn7bfum": {
+   "labels": 17954,
+   "negations": 13674,
+   "expiring": 0,
+   "inert": 0,
+   "active": 15,
+   "active_subjects": 15,
+   "retracted_pairs": 3803,
+   "kinds": {
+    "account": 17954
+   },
+   "first": "2025-08-25T12:11:44.470Z",
+   "last": "2026-10-20T22:00:01.908Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "lastweek",
+     8
+    ],
+    [
+     "five",
+     2
+    ],
+    [
+     "fourteen",
+     2
+    ],
+    [
+     "seven",
+     1
+    ],
+    [
+     "six",
+     1
+    ],
+    [
+     "yesterday",
+     1
+    ]
+   ],
+   "handle": "globitos.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 153
+  },
+  "did:plc:eea72b4p7bmovnu53466lxr6": {
+   "labels": 14,
+   "negations": 1,
+   "expiring": 0,
+   "inert": 1,
+   "active": 13,
+   "active_subjects": 13,
+   "retracted_pairs": 1,
+   "kinds": {
+    "account": 14
+   },
+   "first": "2025-08-28T03:55:09.572Z",
+   "last": "2026-02-23T07:35:38.921Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "bricks",
+     13
+    ]
+   ],
+   "handle": "bricks.arimelody.space",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 22
+  },
+  "did:plc:i65enriuag7n5fgkopbqtkyk": {
+   "labels": 4535440,
+   "negations": 1905573,
+   "expiring": 0,
+   "inert": 3689182,
+   "active": 2629863,
+   "active_subjects": 2555884,
+   "retracted_pairs": 1905573,
+   "kinds": {
+    "account": 4535440
+   },
+   "first": "2024-04-27T23:50:58.729Z",
+   "last": "2026-10-21T08:40:03.447Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "newaccount",
+     2182595
+    ],
+    [
+     "incomplete",
+     168300
+    ],
+    [
+     "changedhandle",
+     95809
+    ],
+    [
+     "newhandle",
+     91460
+    ],
+    [
+     "bridgy",
+     63550
+    ],
+    [
+     "onlyreplies",
+     24181
+    ],
+    [
+     "nostr",
+     3299
+    ],
+    [
+     "threads",
+     361
+    ]
+   ],
+   "handle": "profile-labels.bossett.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 1647,
+   "accounts": 2555884,
+   "accounts_colabelled": 73099
+  },
+  "did:plc:indwvpzxq36ay7cafeymjm4p": {
+   "labels": 601,
+   "negations": 203,
+   "expiring": 0,
+   "inert": 0,
+   "active": 188,
+   "active_subjects": 90,
+   "retracted_pairs": 109,
+   "kinds": {
+    "account": 601
+   },
+   "first": "2025-12-25T04:51:31.170Z",
+   "last": "2026-10-21T02:45:30.230Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "ruzader",
+     19
+    ],
+    [
+     "grem",
+     12
+    ],
+    [
+     "deadbeat",
+     11
+    ],
+    [
+     "otomo",
+     10
+    ],
+    [
+     "fmruffian",
+     8
+    ],
+    [
+     "machiroon",
+     7
+    ],
+    [
+     "hanamigumi",
+     6
+    ],
+    [
+     "bettelion",
+     6
+    ]
+   ],
+   "handle": "holofanbase.zomrade.live",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 240
+  },
+  "did:plc:b6irkivf4f6kr5zetwycnzxd": {
+   "labels": 2450,
+   "negations": 450,
+   "expiring": 0,
+   "inert": 6,
+   "active": 1498,
+   "active_subjects": 1026,
+   "retracted_pairs": 219,
+   "kinds": {
+    "account": 2448,
+    "non-atproto": 2
+   },
+   "first": "2025-09-15T06:02:48.081Z",
+   "last": "2026-10-18T18:04:43.612Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "whole",
+     372
+    ],
+    [
+     "two-percent",
+     262
+    ],
+    [
+     "chocolate",
+     175
+    ],
+    [
+     "oat",
+     161
+    ],
+    [
+     "lactose-free",
+     101
+    ],
+    [
+     "almond",
+     76
+    ],
+    [
+     "strawberry",
+     66
+    ],
+    [
+     "soy",
+     57
+    ]
+   ],
+   "handle": "milk.meowing.zip",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 169
+  },
+  "did:plc:gqq67nt6m4tdloyvociw7ikr": {
+   "labels": 8,
+   "negations": 3,
+   "expiring": 0,
+   "inert": 1,
+   "active": 5,
+   "active_subjects": 4,
+   "retracted_pairs": 3,
+   "kinds": {
+    "profile": 1,
+    "account": 5,
+    "post": 2
+   },
+   "first": "2026-04-07T04:42:07.196Z",
+   "last": "2026-08-24T22:59:18.259Z",
+   "latency_s": {
+    "n": 2,
+    "p50": 2237102.299,
+    "p90": 2237102.299
+   },
+   "top_values": [
+    [
+     "spam",
+     1
+    ],
+    [
+     "harassment",
+     1
+    ],
+    [
+     "!suspend",
+     1
+    ],
+    [
+     "immigrant-harassment",
+     1
+    ],
+    [
+     "hate-speech",
+     1
+    ]
+   ],
+   "handle": "moderation.latinsky.app",
+   "category": "protective",
+   "windowed": false,
+   "likes": 83,
+   "accounts": 3,
+   "accounts_colabelled": 3
+  },
+  "did:plc:iwgztlbtspo6bjy25qgcllqi": {
+   "labels": 24201,
+   "negations": 505,
+   "expiring": 29,
+   "inert": 243,
+   "active": 23668,
+   "active_subjects": 6856,
+   "retracted_pairs": 505,
+   "kinds": {
+    "account": 22762,
+    "profile": 53,
+    "other-record": 11,
+    "post": 1375
+   },
+   "first": "2025-01-03T19:26:57.135Z",
+   "last": "2026-10-20T06:49:49.311Z",
+   "latency_s": {
+    "n": 1315,
+    "p50": 69488.734,
+    "p90": 964421.467
+   },
+   "top_values": [
+    [
+     "graphic-media",
+     5488
+    ],
+    [
+     "!hide",
+     5298
+    ],
+    [
+     "bot",
+     4568
+    ],
+    [
+     "trolle",
+     3680
+    ],
+    [
+     "sexual",
+     1326
+    ],
+    [
+     "!warn",
+     933
+    ],
+    [
+     "nudity",
+     777
+    ],
+    [
+     "porn",
+     710
+    ]
+   ],
+   "handle": "panslawek.pl",
+   "category": "protective",
+   "windowed": false,
+   "likes": 244,
+   "accounts": 6351,
+   "accounts_colabelled": 1019
+  },
+  "did:plc:uyauirpjzk6le4ygqzatcwnq": {
+   "labels": 123050,
+   "negations": 25284,
+   "expiring": 0,
+   "inert": 29583,
+   "active": 72482,
+   "active_subjects": 36241,
+   "retracted_pairs": 11308,
+   "kinds": {
+    "account": 123050
+   },
+   "first": "2025-09-20T10:32:28.535Z",
+   "last": "2025-10-22T18:49:07.715Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "internal-independent",
+     36241
+    ],
+    [
+     "world-si46-pds",
+     11073
+    ],
+    [
+     "app-blacksky",
+     5401
+    ],
+    [
+     "computer-aesthetic-at",
+     4204
+    ],
+    [
+     "internal-other",
+     3933
+    ],
+    [
+     "info-keik",
+     3348
+    ],
+    [
+     "so-sprk-pds",
+     1569
+    ],
+    [
+     "sh-tngl",
+     1529
+    ]
+   ],
+   "handle": "pds.labeler.tny.im",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 546
+  },
+  "did:plc:3eivfiql4memqxkryeu4tqnk": {
+   "labels": 54217,
+   "negations": 0,
+   "expiring": 21227,
+   "inert": 0,
+   "active": 54217,
+   "active_subjects": 48905,
+   "retracted_pairs": 0,
+   "kinds": {
+    "post": 54216,
+    "other-record": 1
+   },
+   "first": "2026-07-23T07:42:21.105Z",
+   "last": "2026-10-21T08:41:49.087Z",
+   "latency_s": {
+    "n": 52450,
+    "p50": 2.833,
+    "p90": 4647.601
+   },
+   "top_values": [
+    [
+     "spoiler",
+     39405
+    ],
+    [
+     "spoiler-parent",
+     12217
+    ],
+    [
+     "rumor",
+     2522
+    ],
+    [
+     "rumor-parent",
+     73
+    ]
+   ],
+   "handle": "mod.shawn.party",
+   "category": "protective",
+   "windowed": false,
+   "likes": 244,
+   "accounts": 0,
+   "accounts_colabelled": 0
+  },
+  "did:plc:bv3lcacietc6fkdokxfqtdkj": {
+   "labels": 1744626,
+   "negations": 47510,
+   "expiring": 0,
+   "inert": 552085,
+   "active": 1697116,
+   "active_subjects": 1115548,
+   "retracted_pairs": 47493,
+   "kinds": {
+    "post": 1705911,
+    "profile": 2,
+    "account": 38713
+   },
+   "first": "2024-06-09T06:37:54.675Z",
+   "last": "2026-10-21T08:41:11.300Z",
+   "latency_s": {
+    "n": 199962,
+    "p50": 1.751,
+    "p90": 7.551292
+   },
+   "top_values": [
+    [
+     "captured",
+     553406
+    ],
+    [
+     "long-image",
+     536349
+    ],
+    [
+     "diaper",
+     419404
+    ],
+    [
+     "urine",
+     87946
+    ],
+    [
+     "animalistic-mask",
+     34122
+    ],
+    [
+     "feces",
+     32043
+    ],
+    [
+     "exclude-feed",
+     14190
+    ],
+    [
+     "visible-flatulence",
+     8886
+    ]
+   ],
+   "handle": "labeler.nunnybabbit.com",
+   "category": "protective",
+   "windowed": false,
+   "likes": 30,
+   "accounts": 8961,
+   "accounts_colabelled": 1662
+  },
+  "did:plc:kgpqgx33bhqf4sn7lb7thnzw": {
+   "labels": 20,
+   "negations": 4,
+   "expiring": 0,
+   "inert": 0,
+   "active": 16,
+   "active_subjects": 11,
+   "retracted_pairs": 4,
+   "kinds": {
+    "account": 4,
+    "profile": 1,
+    "post": 15
+   },
+   "first": "2025-09-23T14:00:30.879Z",
+   "last": "2026-10-17T17:58:40.615Z",
+   "latency_s": {
+    "n": 13,
+    "p50": 166899.041,
+    "p90": 18486346.791
+   },
+   "top_values": [
+    [
+     "misinformation",
+     3
+    ],
+    [
+     "security-concerns",
+     2
+    ],
+    [
+     "sexual",
+     2
+    ],
+    [
+     "evil",
+     2
+    ],
+    [
+     "problematic",
+     2
+    ],
+    [
+     "graphic-media",
+     1
+    ],
+    [
+     "gore",
+     1
+    ],
+    [
+     "nudity",
+     1
+    ]
+   ],
+   "handle": "moderation.at.yugoslavia.best",
+   "category": "protective",
+   "windowed": false,
+   "likes": 21,
+   "accounts": 3,
+   "accounts_colabelled": 1
+  },
+  "did:plc:cdkysjo2taj2jpy3qoostthu": {
+   "labels": 1619990,
+   "negations": 83241,
+   "expiring": 0,
+   "inert": 2,
+   "active": 1453070,
+   "active_subjects": 1449768,
+   "retracted_pairs": 83239,
+   "kinds": {
+    "post": 1619747,
+    "other-record": 5,
+    "account": 238
+   },
+   "first": "2025-07-27T19:39:23.650Z",
+   "last": "2026-10-21T08:42:22.691Z",
+   "latency_s": {
+    "n": 193984,
+    "p50": 2.226,
+    "p90": 38.211
+   },
+   "top_values": [
+    [
+     "bot-reply",
+     1434824
+    ],
+    [
+     "bottag-toplevel",
+     18030
+    ],
+    [
+     "undisclosed-bot",
+     179
+    ],
+    [
+     "undisclosed-human",
+     35
+    ],
+    [
+     "bottag_toplevel",
+     2
+    ]
+   ],
+   "handle": "bottags.bsky.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 44,
+   "accounts": 214,
+   "accounts_colabelled": 45
+  },
+  "did:plc:gfsl6onkc4zexibvmrguwdn5": {
+   "labels": 0,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 0,
+   "kinds": {},
+   "first": null,
+   "last": null,
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": null,
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:s45hbf5dqdkjpwuuq4djo6l2": {
+   "labels": 316099,
+   "negations": 774,
+   "expiring": 0,
+   "inert": 0,
+   "active": 303986,
+   "active_subjects": 303421,
+   "retracted_pairs": 554,
+   "kinds": {
+    "account": 316099
+   },
+   "first": "2026-03-05T08:42:33Z",
+   "last": "2026-10-20T23:40:51.40324719Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "ai-hater",
+     303372
+    ],
+    [
+     "ai-slurrer",
+     541
+    ],
+    [
+     "problem-not-otherwise-specified",
+     73
+    ]
+   ],
+   "handle": "antiantiai.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 208
+  },
+  "did:plc:bpkpvmwpd3nr2ry4btt55ack": {
+   "labels": 429063,
+   "negations": 5128,
+   "expiring": 3,
+   "inert": 957,
+   "active": 423909,
+   "active_subjects": 410140,
+   "retracted_pairs": 5124,
+   "kinds": {
+    "post": 373194,
+    "account": 55764,
+    "profile": 96,
+    "other-record": 9
+   },
+   "first": "2024-03-20T02:20:37.021Z",
+   "last": "2026-10-21T07:55:25.019Z",
+   "latency_s": {
+    "n": 200000,
+    "p50": 1.672103,
+    "p90": 2.454
+   },
+   "top_values": [
+    [
+     "ai-imagery",
+     370360
+    ],
+    [
+     "ai-avatar-or-banner",
+     31279
+    ],
+    [
+     "user-frequent-ai-imagery",
+     15738
+    ],
+    [
+     "user-occasional-ai-imagery",
+     5812
+    ],
+    [
+     "ai-modified",
+     298
+    ],
+    [
+     "ai-assisted",
+     238
+    ],
+    [
+     "ai-informative",
+     167
+    ],
+    [
+     "!warn",
+     8
+    ]
+   ],
+   "handle": "aimod.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 14377
+  },
+  "did:plc:r67kluzdheusnbkbim32sb2k": {
+   "labels": 5122,
+   "negations": 1,
+   "expiring": 3380,
+   "inert": 0,
+   "active": 1741,
+   "active_subjects": 1741,
+   "retracted_pairs": 1,
+   "kinds": {
+    "account": 1991,
+    "post": 3131
+   },
+   "first": "2025-10-08T05:36:43.116Z",
+   "last": "2026-07-23T21:34:30.195Z",
+   "latency_s": {
+    "n": 3131,
+    "p50": 54505.283,
+    "p90": 11962994.072
+   },
+   "top_values": [
+    [
+     "often-nsfw",
+     1741
+    ]
+   ],
+   "handle": "remember2labelnsfw.bsky.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 127,
+   "accounts": 1741,
+   "accounts_colabelled": 223
+  },
+  "did:plc:gq3qf7nawgpkt6co7z62fnqm": {
+   "labels": 26,
+   "negations": 23,
+   "expiring": 0,
+   "inert": 19,
+   "active": 3,
+   "active_subjects": 3,
+   "retracted_pairs": 23,
+   "kinds": {
+    "account": 12,
+    "post": 8,
+    "profile": 6
+   },
+   "first": "2024-03-18T20:41:24.282Z",
+   "last": "2025-10-14T03:00:17.408Z",
+   "latency_s": {
+    "n": 1,
+    "p50": 2115.152721,
+    "p90": 2115.152721
+   },
+   "top_values": [
+    [
+     "good-girl",
+     2
+    ],
+    [
+     "testLabel",
+     1
+    ]
+   ],
+   "handle": "mod.armifi.com",
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 2
+  },
+  "did:plc:hx65oouv7iwxm73nmh7tuhgq": {
+   "labels": 2645,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 2645,
+   "active_subjects": 2645,
+   "retracted_pairs": 0,
+   "kinds": {
+    "post": 2645
+   },
+   "first": "2025-10-22T14:52:11.163Z",
+   "last": "2026-10-20T12:56:10.582Z",
+   "latency_s": {
+    "n": 2645,
+    "p50": 93299.062,
+    "p90": 1203361.318
+   },
+   "top_values": [
+    [
+     "factcheck-leadstories",
+     2631
+    ],
+    [
+     "factcheck-decheckers",
+     10
+    ],
+    [
+     "factcheck-aosfatos",
+     4
+    ]
+   ],
+   "handle": "unclouder.com",
+   "category": "protective",
+   "windowed": false,
+   "likes": 24,
+   "accounts": 0,
+   "accounts_colabelled": 0
+  },
+  "did:plc:ffv7lgt5rzmhnhzfum6ktzwm": {
+   "labels": 4887,
+   "negations": 1424,
+   "expiring": 0,
+   "inert": 10,
+   "active": 2272,
+   "active_subjects": 1037,
+   "retracted_pairs": 845,
+   "kinds": {
+    "account": 4887
+   },
+   "first": "2024-09-25T23:12:46.089Z",
+   "last": "2026-10-13T13:45:16.320Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "bal",
+     106
+    ],
+    [
+     "phi",
+     50
+    ],
+    [
+     "nfl-phi",
+     44
+    ],
+    [
+     "sd",
+     43
+    ],
+    [
+     "ny",
+     40
+    ],
+    [
+     "ncaa-ore",
+     35
+    ],
+    [
+     "nwsl-was",
+     32
+    ],
+    [
+     "la",
+     31
+    ]
+   ],
+   "handle": "sports-labeler.hooray.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 179
+  },
+  "did:plc:diitczh77g62vvea5fjbbz6b": {
+   "labels": 702541,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 34,
+   "active": 695660,
+   "active_subjects": 322838,
+   "retracted_pairs": 0,
+   "kinds": {
+    "post": 702541
+   },
+   "first": "2026-06-13T02:55:09.289Z",
+   "last": "2026-10-21T08:43:05.451Z",
+   "latency_s": {
+    "n": 193849,
+    "p50": 2.343,
+    "p90": 6.862
+   },
+   "top_values": [
+    [
+     "us",
+     131245
+    ],
+    [
+     "politics",
+     95107
+    ],
+    [
+     "opinion",
+     47896
+    ],
+    [
+     "world",
+     40699
+    ],
+    [
+     "business",
+     25639
+    ],
+    [
+     "europe",
+     16636
+    ],
+    [
+     "arts",
+     10736
+    ],
+    [
+     "climate",
+     10401
+    ]
+   ],
+   "handle": "nyt-labeler-dev.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 3
+  },
+  "did:plc:jsmeswgjxdfdgymud2a6m5zj": {
+   "labels": 37,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 30,
+   "active_subjects": 28,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 37
+   },
+   "first": "2025-10-29T23:17:00.797Z",
+   "last": "2026-02-03T01:09:00.589Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "app-wafrn-net",
+     14
+    ],
+    [
+     "wafrn-is-sillyand-gay",
+     5
+    ],
+    [
+     "wf-jbc-lol",
+     3
+    ],
+    [
+     "waf-moe",
+     3
+    ],
+    [
+     "homestuck-fr",
+     1
+    ],
+    [
+     "social-sztupy-hu",
+     1
+    ],
+    [
+     "wf-32enoki-net",
+     1
+    ],
+    [
+     "neuronoki-work",
+     1
+    ]
+   ],
+   "handle": "wadge.jbc.lol",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 8
+  },
+  "did:plc:i3hhy6brm27oo3wswbz76ewc": {
+   "labels": 0,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 0,
+   "kinds": {},
+   "first": null,
+   "last": null,
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": null,
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:fmug4zegnl7lf6ljp7aokpeh": {
+   "labels": 4254,
+   "negations": 43,
+   "expiring": 0,
+   "inert": 0,
+   "active": 4211,
+   "active_subjects": 1984,
+   "retracted_pairs": 37,
+   "kinds": {
+    "profile": 9,
+    "account": 4240,
+    "post": 5
+   },
+   "first": "2026-03-27T21:41:42.292Z",
+   "last": "2026-08-29T17:17:14.447Z",
+   "latency_s": {
+    "n": 2,
+    "p50": 987440.896,
+    "p90": 987440.896
+   },
+   "top_values": [
+    [
+     "medical-education",
+     214
+    ],
+    [
+     "internal-medicine",
+     192
+    ],
+    [
+     "emergency-medicine",
+     182
+    ],
+    [
+     "pediatrics",
+     142
+    ],
+    [
+     "family-medicine",
+     136
+    ],
+    [
+     "public-health",
+     125
+    ],
+    [
+     "primary-care",
+     110
+    ],
+    [
+     "cardiology",
+     101
+    ]
+   ],
+   "handle": "moderation.medsky.network",
+   "category": "protective",
+   "windowed": false,
+   "likes": 590,
+   "accounts": 1982,
+   "accounts_colabelled": 80
+  },
+  "did:plc:gnlcw3ckwuf6r2izfeeektvl": {
+   "labels": 20,
+   "negations": 1,
+   "expiring": 2,
+   "inert": 3,
+   "active": 17,
+   "active_subjects": 17,
+   "retracted_pairs": 1,
+   "kinds": {
+    "post": 1,
+    "other-record": 19
+   },
+   "first": "2025-11-22T22:10:04.722Z",
+   "last": "2025-12-07T00:16:58.673Z",
+   "latency_s": {
+    "n": 1,
+    "p50": 2524283.309,
+    "p90": 2524283.309
+   },
+   "top_values": [
+    [
+     "spam",
+     16
+    ],
+    [
+     "harassment",
+     1
+    ]
+   ],
+   "handle": "ozonedev.pds.atproto.ooo",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 1
+  },
+  "did:plc:yitjux5wnswziabxdhvkydll": {
+   "labels": 1000,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 1000,
+   "active": 1000,
+   "active_subjects": 1000,
+   "retracted_pairs": 0,
+   "kinds": {
+    "post": 1000
+   },
+   "first": "2025-11-28T03:02:41.396Z",
+   "last": "2025-11-29T00:08:51.260Z",
+   "latency_s": {
+    "n": 997,
+    "p50": 9.081,
+    "p90": 34.656
+   },
+   "top_values": [
+    [
+     "ai-generated",
+     521
+    ],
+    [
+     "misinformation",
+     479
+    ]
+   ],
+   "handle": null,
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:2hvw53jzu42fkacs764eikef": {
+   "labels": 0,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 0,
+   "kinds": {},
+   "first": null,
+   "last": null,
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": "ddapps.bsky.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 1,
+   "accounts": 0,
+   "accounts_colabelled": 0
+  },
+  "did:plc:nwrcwcrhpkgrqqvkg3lmaqky": {
+   "labels": 51,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 51,
+   "active_subjects": 43,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 51
+   },
+   "first": "2026-03-28T21:33:34.831Z",
+   "last": "2026-09-22T17:47:14.774Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "is-alien",
+     31
+    ],
+    [
+     "ebil-club-member",
+     18
+    ],
+    [
+     "is-alienphobe",
+     2
+    ]
+   ],
+   "handle": "lebel.ebil.club",
+   "category": "protective",
+   "windowed": false,
+   "likes": 67,
+   "accounts": 43,
+   "accounts_colabelled": 7
+  },
+  "did:plc:m7pywezgjqbi47ltupx7gyuc": {
+   "labels": 1,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 1,
+   "active_subjects": 1,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 1
+   },
+   "first": "2026-02-17T09:56:28.000Z",
+   "last": "2026-02-17T09:56:28.000Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "iraq-war-supporter",
+     1
+    ]
+   ],
+   "handle": "iraqwarmongers.com",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 2
+  },
+  "did:plc:4ofxkhncfl2lv5kn3vd5c4gp": {
+   "labels": 1,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 1,
+   "active": 1,
+   "active_subjects": 1,
+   "retracted_pairs": 0,
+   "kinds": {
+    "other-record": 1
+   },
+   "first": "2026-01-05T22:23:26.446Z",
+   "last": "2026-01-05T22:23:26.446Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "spam",
+     1
+    ]
+   ],
+   "handle": "ozone.flashes.blue",
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 2
+  },
+  "did:plc:wwjhjtgw5ksxrzdswtvnsnjs": {
+   "labels": 2,
+   "negations": 1,
+   "expiring": 1,
+   "inert": 1,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 1,
+   "kinds": {
+    "other-record": 1,
+    "account": 1
+   },
+   "first": "2026-05-12T22:11:13.019Z",
+   "last": "2026-06-15T18:54:58.710Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": "alexstestlabeler.bsky.social",
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 1
+  },
+  "did:plc:7c7tx56n64jhzezlwox5dja6": {
+   "labels": 485,
+   "negations": 3,
+   "expiring": 0,
+   "inert": 1,
+   "active": 482,
+   "active_subjects": 482,
+   "retracted_pairs": 3,
+   "kinds": {
+    "account": 485
+   },
+   "first": "2025-12-24T00:57:02.078Z",
+   "last": "2026-08-12T19:10:35.151Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "verified-researcher",
+     471
+    ],
+    [
+     "verified-venue",
+     6
+    ],
+    [
+     "verified-lab",
+     4
+    ],
+    [
+     "verified-industry-institution",
+     1
+    ]
+   ],
+   "handle": "lea.ac",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 9
+  },
+  "did:plc:qhed3m2uw3mqcv5lgtvlyog5": {
+   "labels": 6501,
+   "negations": 3337,
+   "expiring": 0,
+   "inert": 3116,
+   "active": 3164,
+   "active_subjects": 2752,
+   "retracted_pairs": 3337,
+   "kinds": {
+    "account": 6501
+   },
+   "first": "2026-01-06T19:30:39.290Z",
+   "last": "2026-10-16T04:01:52.046Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "bbsky-verified-creator",
+     2734
+    ],
+    [
+     "link-fansly",
+     77
+    ],
+    [
+     "link-onlyfans",
+     69
+    ],
+    [
+     "selling-customs",
+     47
+    ],
+    [
+     "link-loyalfans",
+     26
+    ],
+    [
+     "selling-open-dms",
+     22
+    ],
+    [
+     "link-manyvids",
+     21
+    ],
+    [
+     "link-sextpanther",
+     19
+    ]
+   ],
+   "handle": "verified.babesky.com",
+   "category": "protective",
+   "windowed": false,
+   "likes": 122,
+   "accounts": 2752,
+   "accounts_colabelled": 328
+  },
+  "did:plc:ck57xb7qty7kolim6avksmpr": {
+   "labels": 203,
+   "negations": 66,
+   "expiring": 0,
+   "inert": 0,
+   "active": 70,
+   "active_subjects": 26,
+   "retracted_pairs": 41,
+   "kinds": {
+    "account": 203
+   },
+   "first": "2026-01-12T12:36:33.500Z",
+   "last": "2026-05-01T03:52:24.694Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "unit-noctchill",
+     6
+    ],
+    [
+     "idol-chiyuki",
+     4
+    ],
+    [
+     "unit-alstroemeria",
+     3
+    ],
+    [
+     "unit-imacutiefinder",
+     3
+    ],
+    [
+     "idol-kaho",
+     3
+    ],
+    [
+     "idol-haruki",
+     3
+    ],
+    [
+     "idol-toru",
+     3
+    ],
+    [
+     "idol-hana",
+     3
+    ]
+   ],
+   "handle": "283labeler.mp0.jp",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 17
+  },
+  "did:plc:r5ju6hyf6p7lufdpelj37wnk": {
+   "labels": 2492216,
+   "negations": 3,
+   "expiring": 0,
+   "inert": 0,
+   "active": 2492204,
+   "active_subjects": 2492204,
+   "retracted_pairs": 3,
+   "kinds": {
+    "post": 2492215,
+    "account": 1
+   },
+   "first": "2026-04-06T05:50:38.212Z",
+   "last": "2026-10-19T18:00:55.189Z",
+   "latency_s": {
+    "n": 199869,
+    "p50": 1591.417,
+    "p90": 27816.787
+   },
+   "top_values": [
+    [
+     "uspol",
+     2492204
+    ]
+   ],
+   "handle": "uspol-labeler.bsky.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 23,
+   "accounts": 1,
+   "accounts_colabelled": 1
+  },
+  "did:plc:jh3konxl6bgwegzquplyqjfq": {
+   "labels": 0,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 0,
+   "kinds": {},
+   "first": null,
+   "last": null,
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": null,
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:adzprud3ccqhgldhortugwar": {
+   "labels": 20134,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 2824,
+   "active": 20134,
+   "active_subjects": 20042,
+   "retracted_pairs": 0,
+   "kinds": {
+    "post": 20134
+   },
+   "first": "2026-01-21T02:47:38.615Z",
+   "last": "2026-01-27T17:57:44.862Z",
+   "latency_s": {
+    "n": 20075,
+    "p50": 142.825,
+    "p90": 168.446
+   },
+   "top_values": [
+    [
+     "trumpface",
+     17310
+    ],
+    [
+     "trump",
+     2824
+    ]
+   ],
+   "handle": "facelabels.bsky.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 92,
+   "accounts": 0,
+   "accounts_colabelled": 0
+  },
+  "did:plc:psup7nydt3hc7pjgs264ypvo": {
+   "labels": 0,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 0,
+   "kinds": {},
+   "first": null,
+   "last": null,
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": "skymap-test.bsky.social",
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 3
+  },
+  "did:plc:mkj5rmeswytaiaqdd4bmdnfy": {
+   "labels": 751,
+   "negations": 156,
+   "expiring": 0,
+   "inert": 1,
+   "active": 595,
+   "active_subjects": 263,
+   "retracted_pairs": 156,
+   "kinds": {
+    "account": 751
+   },
+   "first": "2026-01-17T01:56:29.818Z",
+   "last": "2026-10-20T02:46:46.169Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "silly",
+     82
+    ],
+    [
+     "sweetie",
+     63
+    ],
+    [
+     "insomniac",
+     48
+    ],
+    [
+     "haunted",
+     47
+    ],
+    [
+     "cheeseplease",
+     35
+    ],
+    [
+     "annoying",
+     32
+    ],
+    [
+     "midposter",
+     32
+    ],
+    [
+     "goblin",
+     31
+    ]
+   ],
+   "handle": "perfect-skeeties.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 103
+  },
+  "did:plc:3bslxjzm3z3i67r5iwht4y5v": {
+   "labels": 337,
+   "negations": 135,
+   "expiring": 0,
+   "inert": 21,
+   "active": 67,
+   "active_subjects": 23,
+   "retracted_pairs": 54,
+   "kinds": {
+    "account": 337
+   },
+   "first": "2026-01-25T02:58:06.834Z",
+   "last": "2026-09-21T13:19:41.165Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "tsuyoi",
+     8
+    ],
+    [
+     "erai",
+     7
+    ],
+    [
+     "urusai",
+     7
+    ],
+    [
+     "tensai",
+     7
+    ],
+    [
+     "yabai",
+     6
+    ],
+    [
+     "eroi",
+     4
+    ],
+    [
+     "sleepiness",
+     4
+    ],
+    [
+     "backpain",
+     4
+    ]
+   ],
+   "handle": "label-iam.so-asano.com",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 10
+  },
+  "did:plc:h32pqyqq67anm6rfajksai7m": {
+   "labels": 0,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 0,
+   "kinds": {},
+   "first": null,
+   "last": null,
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": null,
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:uave5d3kntkgbcv2mbju3nbn": {
+   "labels": 0,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 0,
+   "kinds": {},
+   "first": null,
+   "last": null,
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": null,
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:vtwsl5kxq3xctd6xwb5jtquh": {
+   "labels": 23,
+   "negations": 21,
+   "expiring": 0,
+   "inert": 2,
+   "active": 2,
+   "active_subjects": 2,
+   "retracted_pairs": 21,
+   "kinds": {
+    "account": 23
+   },
+   "first": "2026-01-25T21:04:33.948Z",
+   "last": "2026-01-31T00:19:44.202Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "cheeseplease",
+     2
+    ]
+   ],
+   "handle": "skeeties-dev.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 1
+  },
+  "did:plc:pyhdwmfctl6qbqjykyqch62g": {
+   "labels": 0,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 0,
+   "kinds": {},
+   "first": null,
+   "last": null,
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": null,
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:v4t6besurluhnfp6ejs4hkqi": {
+   "labels": 0,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 0,
+   "kinds": {},
+   "first": null,
+   "last": null,
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": null,
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:hikdgxc7fic2hjekzn2ebrk3": {
+   "labels": 0,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 0,
+   "kinds": {},
+   "first": null,
+   "last": null,
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": null,
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:flwugseenu2x4o3h2ymutc3x": {
+   "labels": 10335,
+   "negations": 261,
+   "expiring": 0,
+   "inert": 185,
+   "active": 10074,
+   "active_subjects": 4042,
+   "retracted_pairs": 254,
+   "kinds": {
+    "account": 5889,
+    "post": 4424,
+    "other-record": 1,
+    "profile": 21
+   },
+   "first": "2026-01-27T11:40:36.285Z",
+   "last": "2026-09-24T13:54:09.415Z",
+   "latency_s": {
+    "n": 4329,
+    "p50": 4311422.545,
+    "p90": 12930171.545
+   },
+   "top_values": [
+    [
+     "imagerypost",
+     1968
+    ],
+    [
+     "imagerypostbadge",
+     1966
+    ],
+    [
+     "imageryaccount",
+     1664
+    ],
+    [
+     "imageryaccountbadge",
+     1663
+    ],
+    [
+     "aiprofile",
+     1068
+    ],
+    [
+     "aiprofilebadge",
+     1067
+    ],
+    [
+     "audiopost",
+     105
+    ],
+    [
+     "audiopostbadge",
+     105
+    ]
+   ],
+   "handle": "labeler.blackwall.gg",
+   "category": "protective",
+   "windowed": false,
+   "likes": 515,
+   "accounts": 1967,
+   "accounts_colabelled": 339
+  },
+  "did:plc:erl76ixakiifywkveug2fzkh": {
+   "labels": 511,
+   "negations": 8,
+   "expiring": 0,
+   "inert": 0,
+   "active": 503,
+   "active_subjects": 503,
+   "retracted_pairs": 8,
+   "kinds": {
+    "account": 510,
+    "post": 1
+   },
+   "first": "2026-01-29T01:28:48.578Z",
+   "last": "2026-10-21T01:15:43.081Z",
+   "latency_s": {
+    "n": 1,
+    "p50": 79420.388,
+    "p90": 79420.388
+   },
+   "top_values": [
+    [
+     "jerrified",
+     502
+    ],
+    [
+     "unjerrified",
+     1
+    ]
+   ],
+   "handle": "jerrified.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 361
+  },
+  "did:plc:4mvnkzobjzwuaxlnvcky3oh6": {
+   "labels": 6215,
+   "negations": 984,
+   "expiring": 0,
+   "inert": 0,
+   "active": 3713,
+   "active_subjects": 3713,
+   "retracted_pairs": 426,
+   "kinds": {
+    "account": 6215
+   },
+   "first": "2026-01-31T14:04:03.367Z",
+   "last": "2026-10-21T07:21:00.966Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "has-voresky-characters",
+     3713
+    ]
+   ],
+   "handle": "voresky.app",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 617
+  },
+  "did:plc:l37i5se642dgeb7kmrdwoqv4": {
+   "labels": 315073,
+   "negations": 23847,
+   "expiring": 0,
+   "inert": 83,
+   "active": 291226,
+   "active_subjects": 289049,
+   "retracted_pairs": 23846,
+   "kinds": {
+    "account": 315073
+   },
+   "first": "2026-02-18T20:00:57.637Z",
+   "last": "2026-10-21T08:49:51.124Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "bio-location",
+     283611
+    ],
+    [
+     "hashtag-author",
+     2263
+    ],
+    [
+     "atlas-user",
+     2078
+    ],
+    [
+     "follow-graph",
+     1061
+    ],
+    [
+     "us-ca-losangeles",
+     246
+    ],
+    [
+     "us-wi",
+     144
+    ],
+    [
+     "us-ca",
+     123
+    ],
+    [
+     "us-ny-newyorkcity",
+     101
+    ]
+   ],
+   "handle": "atls.city",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 59
+  },
+  "did:plc:tisqn7an54c5422ohlpfmnqk": {
+   "labels": 11,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 11,
+   "active_subjects": 10,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 6,
+    "profile": 1,
+    "post": 4
+   },
+   "first": "2026-02-04T11:44:21.727Z",
+   "last": "2026-02-12T16:15:21.894Z",
+   "latency_s": {
+    "n": 4,
+    "p50": 1706891.117,
+    "p90": 17626938.746
+   },
+   "top_values": [
+    [
+     "disinfo-climate",
+     10
+    ],
+    [
+     "disinfo-lgbtq",
+     1
+    ]
+   ],
+   "handle": "ddmod.bsky.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 1,
+   "accounts": 5,
+   "accounts_colabelled": 4
+  },
+  "did:plc:vud7oo5sc7k256jjplfxlnhm": {
+   "labels": 7856,
+   "negations": 1035,
+   "expiring": 0,
+   "inert": 0,
+   "active": 5786,
+   "active_subjects": 4538,
+   "retracted_pairs": 585,
+   "kinds": {
+    "account": 7856
+   },
+   "first": "2026-02-08T19:35:18.822Z",
+   "last": "2026-10-21T02:08:13.674Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "she-her",
+     1645
+    ],
+    [
+     "he-him",
+     866
+    ],
+    [
+     "they-them",
+     797
+    ],
+    [
+     "she-they",
+     369
+    ],
+    [
+     "it-its",
+     348
+    ],
+    [
+     "any-pronouns",
+     295
+    ],
+    [
+     "he-they",
+     245
+    ],
+    [
+     "they-she",
+     142
+    ]
+   ],
+   "handle": "pronounsinb.io",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 726
+  },
+  "did:plc:rzptgjf46q2t6npdkzh4g7rh": {
+   "labels": 8,
+   "negations": 3,
+   "expiring": 0,
+   "inert": 3,
+   "active": 5,
+   "active_subjects": 4,
+   "retracted_pairs": 3,
+   "kinds": {
+    "account": 8
+   },
+   "first": "2026-02-12T00:51:10.164Z",
+   "last": "2026-03-17T19:14:06.044Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "spam",
+     4
+    ],
+    [
+     "engagement-farming",
+     1
+    ]
+   ],
+   "handle": "moderation.nahida.blue",
+   "category": "protective",
+   "windowed": false,
+   "likes": 3,
+   "accounts": 4,
+   "accounts_colabelled": 2
+  },
+  "did:plc:4p3ilpfcl77fqgoofjmghznc": {
+   "labels": 2825,
+   "negations": 368,
+   "expiring": 0,
+   "inert": 133,
+   "active": 1463,
+   "active_subjects": 1424,
+   "retracted_pairs": 120,
+   "kinds": {
+    "account": 2825
+   },
+   "first": "2025-04-26T21:28:59.704Z",
+   "last": "2026-10-21T07:22:45.790Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "member",
+     1424
+    ],
+    [
+     "contributor",
+     37
+    ],
+    [
+     "xword-contrib",
+     2
+    ]
+   ],
+   "handle": "puzzmo-labeler.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 62
+  },
+  "did:plc:glu5zy2vxbuqwh76tjuwfqbm": {
+   "labels": 20663,
+   "negations": 5569,
+   "expiring": 0,
+   "inert": 0,
+   "active": 9525,
+   "active_subjects": 9525,
+   "retracted_pairs": 4135,
+   "kinds": {
+    "account": 20663
+   },
+   "first": "2026-02-10T06:17:57.123Z",
+   "last": "2026-10-21T07:35:20.619Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "modlist-author",
+     9525
+    ]
+   ],
+   "handle": "mla-labeler.bsky.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 8,
+   "accounts": 9525,
+   "accounts_colabelled": 1251
+  },
+  "did:plc:dsjk7d74slgc2xyrhehf2sxk": {
+   "labels": 74,
+   "negations": 16,
+   "expiring": 0,
+   "inert": 0,
+   "active": 42,
+   "active_subjects": 29,
+   "retracted_pairs": 12,
+   "kinds": {
+    "account": 58,
+    "post": 16
+   },
+   "first": "2026-02-17T21:23:47.524Z",
+   "last": "2026-08-25T08:51:44.070Z",
+   "latency_s": {
+    "n": 16,
+    "p50": 2.697,
+    "p90": 7681.169
+   },
+   "top_values": [
+    [
+     "noalt",
+     16
+    ],
+    [
+     "code",
+     9
+    ],
+    [
+     "visual",
+     4
+    ],
+    [
+     "built",
+     2
+    ],
+    [
+     "physical",
+     2
+    ],
+    [
+     "word",
+     2
+    ],
+    [
+     "audio",
+     2
+    ],
+    [
+     "admin",
+     1
+    ]
+   ],
+   "handle": "built.blue",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 17
+  },
+  "did:plc:g6c6zaif2tjvdlmkkibj2avz": {
+   "labels": 12515,
+   "negations": 503,
+   "expiring": 0,
+   "inert": 0,
+   "active": 728,
+   "active_subjects": 728,
+   "retracted_pairs": 79,
+   "kinds": {
+    "account": 12515
+   },
+   "first": "2026-02-12T02:17:16.546Z",
+   "last": "2026-10-14T16:21:18.313Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "plural-system",
+     728
+    ]
+   ],
+   "handle": "labeler.plural.host",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 12
+  },
+  "did:plc:5rw6of6lry7ihmyhm323ycwn": {
+   "labels": 0,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 0,
+   "kinds": {},
+   "first": null,
+   "last": null,
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": "einstein.climateai.org",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:uac6er53o2pvr5y2qmvaf7hw": {
+   "labels": 20520288,
+   "negations": 5189,
+   "expiring": 0,
+   "inert": 1580,
+   "active": 19872058,
+   "active_subjects": 18375113,
+   "retracted_pairs": 3492,
+   "kinds": {
+    "post": 19642458,
+    "account": 67006,
+    "other-record": 42,
+    "profile": 810782
+   },
+   "first": "2024-11-15T13:34:49.721Z",
+   "last": "2026-10-21T06:56:55.500Z",
+   "latency_s": {
+    "n": 198993,
+    "p50": 27.09,
+    "p90": 3436.476
+   },
+   "top_values": [
+    [
+     "meta-link",
+     4411384
+    ],
+    [
+     "x-link",
+     4342295
+    ],
+    [
+     "disinfo-link",
+     2435012
+    ],
+    [
+     "suspect-citation",
+     1581208
+    ],
+    [
+     "tiktok-link",
+     1576210
+    ],
+    [
+     "high-total-facet-count",
+     1489756
+    ],
+    [
+     "telegram-link",
+     1247469
+    ],
+    [
+     "high-hashtag-count",
+     892590
+    ]
+   ],
+   "handle": "pef-moderation.org",
+   "category": "protective",
+   "windowed": false,
+   "likes": 607,
+   "accounts": 34350,
+   "accounts_colabelled": 6225
+  },
+  "did:plc:mdd2y3ul4lecjtlfxquo3sny": {
+   "labels": 256,
+   "negations": 108,
+   "expiring": 0,
+   "inert": 5,
+   "active": 40,
+   "active_subjects": 20,
+   "retracted_pairs": 49,
+   "kinds": {
+    "account": 256
+   },
+   "first": "2026-02-25T12:29:35Z",
+   "last": "2026-10-09T11:27:24Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "token-collector",
+     11
+    ],
+    [
+     "crp-recipient",
+     8
+    ],
+    [
+     "tezos-delegator",
+     5
+    ],
+    [
+     "fxhash-collector",
+     4
+    ],
+    [
+     "uranium-holder",
+     3
+    ],
+    [
+     "tezos-baker",
+     3
+    ],
+    [
+     "tezos-holder",
+     3
+    ],
+    [
+     "busy-bee",
+     2
+    ]
+   ],
+   "handle": "tzbsky.com",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 13
+  },
+  "did:plc:mpuzvzddf42lb24ycb2pxytn": {
+   "labels": 540,
+   "negations": 133,
+   "expiring": 0,
+   "inert": 0,
+   "active": 234,
+   "active_subjects": 84,
+   "retracted_pairs": 34,
+   "kinds": {
+    "account": 540
+   },
+   "first": "2026-02-25T19:59:59.429Z",
+   "last": "2026-09-07T17:58:09.428Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "eeg",
+     47
+    ],
+    [
+     "computational-modeling",
+     37
+    ],
+    [
+     "meg",
+     24
+    ],
+    [
+     "psychophysics",
+     23
+    ],
+    [
+     "eye-tracking",
+     22
+    ],
+    [
+     "fmri",
+     21
+    ],
+    [
+     "ecog",
+     14
+    ],
+    [
+     "tms",
+     9
+    ]
+   ],
+   "handle": "neuromethods.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 34
+  },
+  "did:plc:q5jv5fi3jmeapisvort63qxe": {
+   "labels": 120,
+   "negations": 57,
+   "expiring": 0,
+   "inert": 0,
+   "active": 3,
+   "active_subjects": 1,
+   "retracted_pairs": 4,
+   "kinds": {
+    "account": 120
+   },
+   "first": "2026-03-04T22:51:35.691Z",
+   "last": "2026-03-05T18:52:13.086Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "country-sweden",
+     1
+    ],
+    [
+     "country-germany",
+     1
+    ],
+    [
+     "country-united-kingdom",
+     1
+    ]
+   ],
+   "handle": "labelme.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:6k2b2myab3zpqivzvyym4cp5": {
+   "labels": 13041,
+   "negations": 12967,
+   "expiring": 0,
+   "inert": 6332,
+   "active": 35,
+   "active_subjects": 35,
+   "retracted_pairs": 5797,
+   "kinds": {
+    "account": 13041
+   },
+   "first": "2026-03-05T01:41:18.068Z",
+   "last": "2026-10-19T06:56:35.062Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "type-four",
+     7
+    ],
+    [
+     "type-five",
+     4
+    ],
+    [
+     "type-one",
+     3
+    ],
+    [
+     "type-nine",
+     3
+    ],
+    [
+     "type-four-wing-five-sx",
+     2
+    ],
+    [
+     "type-five-wing-four-sx",
+     2
+    ],
+    [
+     "type-one-wing-nine",
+     1
+    ],
+    [
+     "type-four-wing-three-sp",
+     1
+    ]
+   ],
+   "handle": "enneagram.blue",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 22
+  },
+  "did:plc:nwxpzxyajtoqytsorxuwgolt": {
+   "labels": 13022,
+   "negations": 6050,
+   "expiring": 0,
+   "inert": 0,
+   "active": 1190,
+   "active_subjects": 688,
+   "retracted_pairs": 4820,
+   "kinds": {
+    "account": 13022
+   },
+   "first": "2026-03-08T01:02:07.151Z",
+   "last": "2026-10-21T08:04:47.347Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "aaauruk-hai-of-isengard",
+     28
+    ],
+    [
+     "aaaorc-of-the-misty-mountains",
+     25
+    ],
+    [
+     "aaaharadrim-of-the-southlands",
+     25
+    ],
+    [
+     "barrow-blade",
+     24
+    ],
+    [
+     "aaaeasterling-of-rhun",
+     23
+    ],
+    [
+     "numenorean-longsword",
+     23
+    ],
+    [
+     "aaawarg-rider-of-isengard",
+     21
+    ],
+    [
+     "aaarider-of-rohan",
+     21
+    ]
+   ],
+   "handle": "middleearth.quest",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 602
+  },
+  "did:plc:g6juxaq3xv3mnep2p6dh22ea": {
+   "labels": 0,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 0,
+   "kinds": {},
+   "first": null,
+   "last": null,
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": null,
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:m6adptn62dcahfaq34tce3j5": {
+   "labels": 1152576,
+   "negations": 681,
+   "expiring": 0,
+   "inert": 0,
+   "active": 1151895,
+   "active_subjects": 1151895,
+   "retracted_pairs": 681,
+   "kinds": {
+    "account": 1152576
+   },
+   "first": "2025-02-10T07:06:27.495Z",
+   "last": "2026-09-06T02:58:23.813Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "joined-nov-c",
+     245651
+    ],
+    [
+     "joined-sep-b",
+     137697
+    ],
+    [
+     "joined-aug-b",
+     126806
+    ],
+    [
+     "joined-oct-b",
+     112358
+    ],
+    [
+     "joined-jul-b",
+     91183
+    ],
+    [
+     "joined-nov-b",
+     66200
+    ],
+    [
+     "joined-dec-b",
+     64771
+    ],
+    [
+     "joined-oct-c",
+     49673
+    ]
+   ],
+   "handle": "joined-labeler.shatteredsky.net",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 718
+  },
+  "did:plc:roewhjzra5xtuliye7qf2ghy": {
+   "labels": 568,
+   "negations": 176,
+   "expiring": 0,
+   "inert": 0,
+   "active": 392,
+   "active_subjects": 129,
+   "retracted_pairs": 176,
+   "kinds": {
+    "account": 567,
+    "profile": 1
+   },
+   "first": "2026-03-27T19:50:03.098Z",
+   "last": "2026-10-20T03:06:47.561Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "fantasy",
+     49
+    ],
+    [
+     "romance",
+     33
+    ],
+    [
+     "scifi",
+     32
+    ],
+    [
+     "literary",
+     27
+    ],
+    [
+     "horror",
+     25
+    ],
+    [
+     "speculative",
+     21
+    ],
+    [
+     "queer",
+     17
+    ],
+    [
+     "historical",
+     16
+    ]
+   ],
+   "handle": "flair.booksky.club",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 171
+  },
+  "did:plc:45scnhbnhc6zm4vn4br4q3wp": {
+   "labels": 22,
+   "negations": 4,
+   "expiring": 0,
+   "inert": 0,
+   "active": 18,
+   "active_subjects": 18,
+   "retracted_pairs": 4,
+   "kinds": {
+    "other-record": 8,
+    "account": 14
+   },
+   "first": "2026-03-25T10:02:18.252Z",
+   "last": "2026-10-06T03:53:38.245Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "supporter",
+     11
+    ],
+    [
+     "spam",
+     5
+    ],
+    [
+     "disinformation",
+     1
+    ],
+    [
+     "sponsor",
+     1
+    ]
+   ],
+   "handle": "moderation.tokimeki.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 2
+  },
+  "did:plc:m6h36r2hzbnozuhxj4obhkyb": {
+   "labels": 45,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 43,
+   "active_subjects": 43,
+   "retracted_pairs": 0,
+   "kinds": {
+    "post": 45
+   },
+   "first": "2026-03-28T01:52:20.554Z",
+   "last": "2026-03-30T15:30:21.181Z",
+   "latency_s": {
+    "n": 45,
+    "p50": 0.589,
+    "p90": 10.794
+   },
+   "top_values": [
+    [
+     "edited",
+     43
+    ]
+   ],
+   "handle": "skeeditor.link",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 6
+  },
+  "did:plc:apttbwjt4ihwe5bcp4wa6fyw": {
+   "labels": 2,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 2,
+   "active": 2,
+   "active_subjects": 2,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 2
+   },
+   "first": "2026-10-09T14:39:02.373Z",
+   "last": "2026-10-09T16:06:47.579Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "wsocial-personal",
+     2
+    ]
+   ],
+   "handle": "moderation.pds-dev.wsocial.dev",
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:6y74tzb6iqeuzuqqxgkizrek": {
+   "labels": 1,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 1,
+   "active_subjects": 1,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 1
+   },
+   "first": "2026-06-23T11:59:34.266844245Z",
+   "last": "2026-06-23T11:59:34.266844245Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "online",
+     1
+    ]
+   ],
+   "handle": "atpcraft.at",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 24
+  },
+  "did:plc:gm7ifwl7flkymfk6mjzt37st": {
+   "labels": 356,
+   "negations": 60,
+   "expiring": 7,
+   "inert": 0,
+   "active": 232,
+   "active_subjects": 232,
+   "retracted_pairs": 41,
+   "kinds": {
+    "account": 356
+   },
+   "first": "2026-04-13T07:50:40.024927Z",
+   "last": "2026-06-07T18:57:57.560676Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "no-fucks",
+     232
+    ]
+   ],
+   "handle": "fucks.supply",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 43
+  },
+  "did:plc:rh3vjqs4npfpmnkkmx4u4bzj": {
+   "labels": 911486,
+   "negations": 3,
+   "expiring": 0,
+   "inert": 0,
+   "active": 911483,
+   "active_subjects": 911483,
+   "retracted_pairs": 3,
+   "kinds": {
+    "post": 911486
+   },
+   "first": "2026-05-28T14:29:59.481Z",
+   "last": "2026-06-03T11:29:09.700Z",
+   "latency_s": {
+    "n": 199597,
+    "p50": 6941.111699,
+    "p90": 15999.781
+   },
+   "top_values": [
+    [
+     "missing-alt-text",
+     909534
+    ],
+    [
+     "partial-alt-text",
+     1949
+    ]
+   ],
+   "handle": "alt-text-labeler.bsky.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 150,
+   "accounts": 0,
+   "accounts_colabelled": 0
+  },
+  "did:plc:pswneepkd5lesumj7ejmkbal": {
+   "labels": 1474,
+   "negations": 135,
+   "expiring": 0,
+   "inert": 0,
+   "active": 1204,
+   "active_subjects": 1204,
+   "retracted_pairs": 121,
+   "kinds": {
+    "account": 1474
+   },
+   "first": "2026-06-25T20:17:35.259Z",
+   "last": "2026-10-18T11:43:51.685Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "standard",
+     948
+    ],
+    [
+     "likely-test",
+     209
+    ],
+    [
+     "high-quality",
+     47
+    ]
+   ],
+   "handle": "orglabeler.certified.one",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:am3r5ugi44s26fwouvel7mrz": {
+   "labels": 11023,
+   "negations": 5,
+   "expiring": 0,
+   "inert": 167,
+   "active": 11018,
+   "active_subjects": 11014,
+   "retracted_pairs": 5,
+   "kinds": {
+    "post": 44,
+    "account": 10979
+   },
+   "first": "2026-05-06T08:03:00.117Z",
+   "last": "2026-10-21T08:49:09.715Z",
+   "latency_s": {
+    "n": 43,
+    "p50": 130474.685,
+    "p90": 40391029.027
+   },
+   "top_values": [
+    [
+     "wsocial-personal",
+     10839
+    ],
+    [
+     "!takedown",
+     165
+    ],
+    [
+     "wsocial-org",
+     9
+    ],
+    [
+     "wsocial-test",
+     3
+    ],
+    [
+     "wsocial-bot",
+     1
+    ],
+    [
+     "wsocial-service",
+     1
+    ]
+   ],
+   "handle": "moderation.wsocial.eu",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 5
+  },
+  "did:plc:upeagalqts3yutsgc6vo5tn3": {
+   "labels": 23,
+   "negations": 2,
+   "expiring": 0,
+   "inert": 14,
+   "active": 21,
+   "active_subjects": 7,
+   "retracted_pairs": 2,
+   "kinds": {
+    "account": 23
+   },
+   "first": "2026-05-16T21:56:47.637Z",
+   "last": "2026-06-11T00:03:14.815Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "kevara-pro",
+     7
+    ],
+    [
+     "verak-pro",
+     7
+    ],
+    [
+     "kevara-eurosky",
+     2
+    ],
+    [
+     "kevara-verified",
+     2
+    ],
+    [
+     "verak-verified",
+     2
+    ],
+    [
+     "kevara-recruiter",
+     1
+    ]
+   ],
+   "handle": "kevara-labeler.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:4zjbgpzz2xcwlvv7mpvvvnmj": {
+   "labels": 7,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 7,
+   "active_subjects": 7,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 7
+   },
+   "first": "2026-05-30T16:43:47.484Z",
+   "last": "2026-08-15T06:33:23.637Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "music-artist",
+     5
+    ],
+    [
+     "music-service",
+     1
+    ],
+    [
+     "music-journalism",
+     1
+    ]
+   ],
+   "handle": "labeler.indiemusi.ch",
+   "category": "protective",
+   "windowed": false,
+   "likes": 1,
+   "accounts": 7,
+   "accounts_colabelled": 0
+  },
+  "did:plc:facdlv7zfy25ymmmutxd3ojq": {
+   "labels": 7188,
+   "negations": 1373,
+   "expiring": 4273,
+   "inert": 65,
+   "active": 542,
+   "active_subjects": 501,
+   "retracted_pairs": 1118,
+   "kinds": {
+    "account": 7188
+   },
+   "first": "2026-05-21T16:08:42.386Z",
+   "last": "2026-10-21T02:05:27.383Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "super-positive-lv-one",
+     304
+    ],
+    [
+     "super-positive-lv-two",
+     82
+    ],
+    [
+     "super-positive-lv-three",
+     33
+    ],
+    [
+     "team-affirmation",
+     31
+    ],
+    [
+     "super-positive-lv-four",
+     15
+    ],
+    [
+     "super-positive-lv-six",
+     8
+    ],
+    [
+     "super-positive-lv-five",
+     8
+    ],
+    [
+     "super-positive-lv-seven",
+     5
+    ]
+   ],
+   "handle": "labeler.bot-tan.com",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 41
+  },
+  "did:plc:6ebfnuunfngxfw3rth3ewojw": {
+   "labels": 3000000,
+   "negations": 1026616,
+   "expiring": 1027647,
+   "inert": 0,
+   "active": 59379,
+   "active_subjects": 59379,
+   "retracted_pairs": 1,
+   "kinds": {
+    "account": 2054263,
+    "post": 945737
+   },
+   "first": "2026-07-07T06:50:57.132Z",
+   "last": "2026-10-21T08:52:39.367Z",
+   "latency_s": {
+    "n": 200000,
+    "p50": 13450.393605,
+    "p90": 43102.494966
+   },
+   "top_values": [
+    [
+     "fucked-up-replyref",
+     58970
+    ],
+    [
+     "doesnt-know-how-replyrefs-work",
+     409
+    ]
+   ],
+   "handle": "label.haus",
+   "category": "descriptive",
+   "windowed": true,
+   "likes": 13
+  },
+  "did:plc:djcot74d3xbuxbe3dkfvchwe": {
+   "labels": 2208,
+   "negations": 1052,
+   "expiring": 0,
+   "inert": 9,
+   "active": 1156,
+   "active_subjects": 414,
+   "retracted_pairs": 1052,
+   "kinds": {
+    "account": 2208
+   },
+   "first": "2026-05-24T23:54:41.424Z",
+   "last": "2026-10-21T08:40:43.977Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "artist-designer",
+     236
+    ],
+    [
+     "vtuber",
+     176
+    ],
+    [
+     "streamer",
+     142
+    ],
+    [
+     "writer",
+     106
+    ],
+    [
+     "vstreamer",
+     49
+    ],
+    [
+     "indie-games",
+     48
+    ],
+    [
+     "retro-gaming",
+     36
+    ],
+    [
+     "three-d-artist",
+     30
+    ]
+   ],
+   "handle": "labeler.pikaparty.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 129,
+   "accounts": 414,
+   "accounts_colabelled": 77
+  },
+  "did:web:retribute.islurking.online": {
+   "labels": 1,
+   "negations": 1,
+   "expiring": 0,
+   "inert": 1,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 1,
+   "kinds": {
+    "account": 1
+   },
+   "first": "2026-05-30T03:16:02.969Z",
+   "last": "2026-05-30T03:16:02.969Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": null,
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:kwrnsjs7shplkwzpentb7yqv": {
+   "labels": 101450,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 101450,
+   "active_subjects": 101450,
+   "retracted_pairs": 0,
+   "kinds": {
+    "post": 101450
+   },
+   "first": "2026-05-22T05:54:59.773Z",
+   "last": "2026-05-29T06:55:47.211Z",
+   "latency_s": {
+    "n": 99535,
+    "p50": 2.682,
+    "p90": 11.379
+   },
+   "top_values": [
+    [
+     "substack",
+     101450
+    ]
+   ],
+   "handle": "kys.makersfield.co",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:7rfpwy2sld2akrgc42scyaau": {
+   "labels": 1,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 1,
+   "active": 1,
+   "active_subjects": 1,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 1
+   },
+   "first": "2026-06-14T23:26:48.456Z",
+   "last": "2026-06-14T23:26:48.456Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "afterlife-escapee",
+     1
+    ]
+   ],
+   "handle": "liquid.1v.lc",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 2
+  },
+  "did:plc:antf7bsm6f4ohkqfdckefyt7": {
+   "labels": 156210,
+   "negations": 77063,
+   "expiring": 0,
+   "inert": 0,
+   "active": 2084,
+   "active_subjects": 2084,
+   "retracted_pairs": 76982,
+   "kinds": {
+    "other-record": 156210
+   },
+   "first": "2026-05-28T17:11:15.359Z",
+   "last": "2026-10-21T08:46:48.249Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "high-quality",
+     848
+    ],
+    [
+     "likely-test",
+     539
+    ],
+    [
+     "standard",
+     368
+    ],
+    [
+     "draft",
+     329
+    ]
+   ],
+   "handle": "activitylabeler.certified.one",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:d5wjm2v7krrf4kunmk7w24r2": {
+   "labels": 4,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 3,
+   "active_subjects": 3,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 4
+   },
+   "first": "2026-06-06T23:12:02.606Z",
+   "last": "2026-06-07T09:14:01.548Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "worm",
+     3
+    ]
+   ],
+   "handle": "labeller.pds.lewis-od.co.uk",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:h5cmg4t64mj4pxmqaiaoam7c": {
+   "labels": 5,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 3,
+   "active": 5,
+   "active_subjects": 5,
+   "retracted_pairs": 0,
+   "kinds": {
+    "profile": 1,
+    "account": 4
+   },
+   "first": "2026-06-11T12:54:14.430Z",
+   "last": "2026-09-07T07:37:53.297Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "!takedown",
+     3
+    ],
+    [
+     "porn",
+     2
+    ]
+   ],
+   "handle": "ozone.eurosky.social",
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 2
+  },
+  "did:plc:xaf7fxq46v52c3fotqzp3ip5": {
+   "labels": 3,
+   "negations": 3,
+   "expiring": 0,
+   "inert": 2,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 3,
+   "kinds": {
+    "other-record": 3
+   },
+   "first": "2026-06-26T04:09:52.350Z",
+   "last": "2026-06-30T07:15:19.183Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": "labeler.gifthood.community",
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:wqnwulql7ndcz6xmtvaovl6u": {
+   "labels": 1,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 1,
+   "active_subjects": 1,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 1
+   },
+   "first": "2026-10-14T15:09:59.232Z",
+   "last": "2026-10-14T15:09:59.232Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "loser-club-member",
+     1
+    ]
+   ],
+   "handle": "loser-club.7rnx.net",
+   "category": "protective",
+   "windowed": false,
+   "likes": 0,
+   "accounts": 1,
+   "accounts_colabelled": 0
+  },
+  "did:plc:7elfhdwxzvsqib4wmfn3zra7": {
+   "labels": 18,
+   "negations": 3,
+   "expiring": 0,
+   "inert": 0,
+   "active": 8,
+   "active_subjects": 8,
+   "retracted_pairs": 1,
+   "kinds": {
+    "post": 18
+   },
+   "first": "2026-06-19T05:05:02.112Z",
+   "last": "2026-06-26T11:01:01.085Z",
+   "latency_s": {
+    "n": 15,
+    "p50": 119600.357,
+    "p90": 184111.223
+   },
+   "top_values": [
+    [
+     "fact-refuted",
+     4
+    ],
+    [
+     "fact-supported",
+     4
+    ]
+   ],
+   "handle": "facts.kiesel.app",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 1
+  },
+  "did:plc:snv4oqqjlvv6lleej5mk7g7i": {
+   "labels": 127,
+   "negations": 59,
+   "expiring": 0,
+   "inert": 6,
+   "active": 5,
+   "active_subjects": 5,
+   "retracted_pairs": 14,
+   "kinds": {
+    "account": 127
+   },
+   "first": "2026-10-06T22:48:54.293Z",
+   "last": "2026-10-08T11:21:31.646Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "chino",
+     2
+    ],
+    [
+     "fuyu",
+     1
+    ],
+    [
+     "megu",
+     1
+    ],
+    [
+     "rize",
+     1
+    ]
+   ],
+   "handle": "usagi-labeler.nikkori.cafe",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 1
+  },
+  "did:plc:4xebwpr6xrrxaygeza7bdbwd": {
+   "labels": 93,
+   "negations": 14,
+   "expiring": 0,
+   "inert": 72,
+   "active": 75,
+   "active_subjects": 74,
+   "retracted_pairs": 14,
+   "kinds": {
+    "other-record": 47,
+    "account": 46
+   },
+   "first": "2026-07-10T00:59:18.415Z",
+   "last": "2026-10-04T21:34:35.904Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "!takedown",
+     44
+    ],
+    [
+     "!hide",
+     17
+    ],
+    [
+     "move",
+     7
+    ],
+    [
+     "lock",
+     3
+    ],
+    [
+     "pin",
+     2
+    ],
+    [
+     "sexual",
+     1
+    ],
+    [
+     "sage",
+     1
+    ]
+   ],
+   "handle": "handle.invalid",
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:5l4rokpixckbqfvbsco756rl": {
+   "labels": 176682,
+   "negations": 87647,
+   "expiring": 0,
+   "inert": 0,
+   "active": 1387,
+   "active_subjects": 1387,
+   "retracted_pairs": 87452,
+   "kinds": {
+    "account": 445,
+    "post": 176237
+   },
+   "first": "2026-06-23T18:16:21Z",
+   "last": "2026-10-21T08:35:16Z",
+   "latency_s": {
+    "n": 88779,
+    "p50": 852.528,
+    "p90": 1549.685
+   },
+   "top_values": [
+    [
+     "top-chicken-eligible",
+     1164
+    ],
+    [
+     "top-chicken-post",
+     168
+    ],
+    [
+     "top-chicken-alumni",
+     50
+    ],
+    [
+     "top-chicken",
+     4
+    ],
+    [
+     "tiptop-chicken",
+     1
+    ]
+   ],
+   "handle": "topchicken-labeler.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 20
+  },
+  "did:plc:qyw3svoo2hgvg4tju5qlnvya": {
+   "labels": 95,
+   "negations": 20,
+   "expiring": 0,
+   "inert": 0,
+   "active": 75,
+   "active_subjects": 47,
+   "retracted_pairs": 20,
+   "kinds": {
+    "account": 95
+   },
+   "first": "2026-07-13T13:42:22.347Z",
+   "last": "2026-10-21T02:39:11.688Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "rotten-bean",
+     22
+    ],
+    [
+     "coffee-black",
+     9
+    ],
+    [
+     "latte",
+     6
+    ],
+    [
+     "tea",
+     5
+    ],
+    [
+     "iced-coffee",
+     4
+    ],
+    [
+     "cold-brew",
+     3
+    ],
+    [
+     "espresso",
+     3
+    ],
+    [
+     "hot-sauce",
+     3
+    ]
+   ],
+   "handle": "mod.coffee.team",
+   "category": "protective",
+   "windowed": false,
+   "likes": 8,
+   "accounts": 47,
+   "accounts_colabelled": 29
+  },
+  "did:plc:dc6jvqyw4e472txdbj7zbrkh": {
+   "labels": 2627,
+   "negations": 553,
+   "expiring": 0,
+   "inert": 2,
+   "active": 1521,
+   "active_subjects": 1383,
+   "retracted_pairs": 366,
+   "kinds": {
+    "account": 2627
+   },
+   "first": "2026-07-10T10:55:54.159Z",
+   "last": "2026-10-21T05:17:23.998Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "she-her",
+     532
+    ],
+    [
+     "he-him",
+     260
+    ],
+    [
+     "they-them",
+     178
+    ],
+    [
+     "she-they",
+     89
+    ],
+    [
+     "he-they",
+     56
+    ],
+    [
+     "any-pronouns",
+     50
+    ],
+    [
+     "they-she",
+     45
+    ],
+    [
+     "it-its",
+     37
+    ]
+   ],
+   "handle": "pronouns.northsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 227
+  },
+  "did:plc:ff5c2i4v2er7byqudo4uh2f3": {
+   "labels": 1,
+   "negations": 1,
+   "expiring": 0,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 1,
+   "kinds": {
+    "other-record": 1
+   },
+   "first": "2026-07-13T18:31:36.390Z",
+   "last": "2026-07-13T18:31:36.390Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": "moderation.tempomusic.fan",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:dkv6mbtinydemx62wvaottxw": {
+   "labels": 0,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 0,
+   "kinds": {},
+   "first": null,
+   "last": null,
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": "moderation.ouracorn.house",
+   "category": "protective",
+   "windowed": false,
+   "likes": 0,
+   "accounts": 0,
+   "accounts_colabelled": 0
+  },
+  "did:plc:q7xlyi427pdg3z5mnwvdpbrx": {
+   "labels": 2,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 1,
+   "active_subjects": 1,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 2
+   },
+   "first": "2026-07-18T04:56:48.995Z",
+   "last": "2026-07-18T05:24:10.291Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "bsky-sync",
+     1
+    ]
+   ],
+   "handle": "labeler.coah80.com",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 1
+  },
+  "did:plc:iewpoc3kqru4rgqpkojfixhx": {
+   "labels": 1,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 1,
+   "active_subjects": 1,
+   "retracted_pairs": 0,
+   "kinds": {
+    "post": 1
+   },
+   "first": "2026-07-24T20:33:03.433Z",
+   "last": "2026-07-24T20:33:03.433Z",
+   "latency_s": {
+    "n": 1,
+    "p50": 5173.347,
+    "p90": 5173.347
+   },
+   "top_values": [
+    [
+     "browserid-verified",
+     1
+    ]
+   ],
+   "handle": "labeler.at.browserid.me",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:hgxdb52zedcotcvqstj6eob4": {
+   "labels": 32,
+   "negations": 2,
+   "expiring": 1,
+   "inert": 32,
+   "active": 28,
+   "active_subjects": 25,
+   "retracted_pairs": 2,
+   "kinds": {
+    "account": 32
+   },
+   "first": "2026-07-21T15:18:28.443Z",
+   "last": "2026-10-07T01:51:02.293Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "play-store-tester",
+     20
+    ],
+    [
+     "team",
+     3
+    ],
+    [
+     "backer-five",
+     3
+    ],
+    [
+     "supporter-ten",
+     2
+    ]
+   ],
+   "handle": null,
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:6jqaj5qku73kt3qgkfey2ued": {
+   "labels": 1,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 1,
+   "active_subjects": 1,
+   "retracted_pairs": 0,
+   "kinds": {
+    "post": 1
+   },
+   "first": "2026-08-27T17:22:28.476Z",
+   "last": "2026-08-27T17:22:28.476Z",
+   "latency_s": {
+    "n": 1,
+    "p50": 0.114,
+    "p90": 0.114
+   },
+   "top_values": [
+    [
+     "likely-false",
+     1
+    ]
+   ],
+   "handle": "veratify.bsky.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 3,
+   "accounts": 0,
+   "accounts_colabelled": 0
+  },
+  "did:plc:zcgiybrye7fewkekg72e224n": {
+   "labels": 40,
+   "negations": 11,
+   "expiring": 0,
+   "inert": 0,
+   "active": 18,
+   "active_subjects": 18,
+   "retracted_pairs": 10,
+   "kinds": {
+    "other-record": 40
+   },
+   "first": "2026-07-23T00:16:16Z",
+   "last": "2026-07-23T00:46:24Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "topic-deflection",
+     10
+    ],
+    [
+     "uncategorized",
+     8
+    ]
+   ],
+   "handle": "labeler.saito.run",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:myxjzrdb27gkjpkcqjazpiod": {
+   "labels": 94512,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 94512,
+   "active_subjects": 94512,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 94512
+   },
+   "first": "2026-07-25T06:11:00.263Z",
+   "last": "2026-10-21T08:44:09.262Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "bridged-account",
+     94512
+    ]
+   ],
+   "handle": "bb.bsky.natalie.ee",
+   "category": "protective",
+   "windowed": false,
+   "likes": 0,
+   "accounts": 94512,
+   "accounts_colabelled": 64883
+  },
+  "did:plc:swt6wf2nw5a7sb2vit3qdhmv": {
+   "labels": 5,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 5,
+   "active_subjects": 1,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 5
+   },
+   "first": "2026-07-31T13:23:51.831Z",
+   "last": "2026-07-31T13:23:51.912Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "founding-listener",
+     1
+    ],
+    [
+     "certified-banger",
+     1
+    ],
+    [
+     "headliner",
+     1
+    ],
+    [
+     "platinum",
+     1
+    ],
+    [
+     "gold-record",
+     1
+    ]
+   ],
+   "handle": "labeler.yeet.fm",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:756uwa72xp4hthse7njk7dl7": {
+   "labels": 23541,
+   "negations": 618,
+   "expiring": 0,
+   "inert": 0,
+   "active": 22923,
+   "active_subjects": 22923,
+   "retracted_pairs": 599,
+   "kinds": {
+    "post": 23541
+   },
+   "first": "2026-08-16T13:50:16.039Z",
+   "last": "2026-10-21T07:39:53.090Z",
+   "latency_s": {
+    "n": 22110,
+    "p50": 1.501,
+    "p90": 7.154
+   },
+   "top_values": [
+    [
+     "fussball-begegnung",
+     22923
+    ]
+   ],
+   "handle": "fussball-labeler.bsky.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 1,
+   "accounts": 0,
+   "accounts_colabelled": 0
+  },
+  "did:plc:5pei2ow2wxbwwtae24ioixzb": {
+   "labels": 64,
+   "negations": 14,
+   "expiring": 0,
+   "inert": 0,
+   "active": 36,
+   "active_subjects": 28,
+   "retracted_pairs": 7,
+   "kinds": {
+    "account": 64
+   },
+   "first": "2024-11-27T14:59:53.700Z",
+   "last": "2026-09-07T22:33:38.206Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "wnba-golden-state-valkyries",
+     8
+    ],
+    [
+     "wnba-chicago-sky",
+     4
+    ],
+    [
+     "wnba-los-angeles-sparks",
+     4
+    ],
+    [
+     "wnba-minnesota-lynx",
+     4
+    ],
+    [
+     "wnba-las-vegas-aces",
+     4
+    ],
+    [
+     "wnba-new-york-liberty",
+     2
+    ],
+    [
+     "wnba-portland-fire",
+     2
+    ],
+    [
+     "wnba-connecticut-sun",
+     2
+    ]
+   ],
+   "handle": "wnba.sickos.club",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 6
+  },
+  "did:plc:ccxl3ictrlvtrrgh5swvvg47": {
+   "labels": 25,
+   "negations": 2,
+   "expiring": 0,
+   "inert": 25,
+   "active": 16,
+   "active_subjects": 15,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 25
+   },
+   "first": "2026-09-10T21:37:47.220Z",
+   "last": "2026-09-13T00:35:28.466Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "player-character",
+     13
+    ],
+    [
+     "non-player-character",
+     3
+    ]
+   ],
+   "handle": null,
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:ciquc2iqrba7r5tootbmxn42": {
+   "labels": 1,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 1,
+   "active": 1,
+   "active_subjects": 1,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 1
+   },
+   "first": "2026-09-08T22:11:08.318Z",
+   "last": "2026-09-08T22:11:08.318Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "areen-spam",
+     1
+    ]
+   ],
+   "handle": "areen-labeler.bsky.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 8,
+   "accounts": 1,
+   "accounts_colabelled": 1
+  },
+  "did:plc:4wll7wiqvamwv2p52ywlrtub": {
+   "labels": 139364,
+   "negations": 1940,
+   "expiring": 0,
+   "inert": 139354,
+   "active": 137424,
+   "active_subjects": 77717,
+   "retracted_pairs": 1940,
+   "kinds": {
+    "account": 139364
+   },
+   "first": "2026-08-14T05:54:21.757Z",
+   "last": "2026-10-11T18:13:45.916Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "mdni",
+     77712
+    ],
+    [
+     "nsfw-account",
+     56843
+    ],
+    [
+     "suggestive-account",
+     2198
+    ],
+    [
+     "nsfw-dni",
+     665
+    ],
+    [
+     "goop",
+     1
+    ],
+    [
+     "jonathan",
+     1
+    ],
+    [
+     "!warn",
+     1
+    ],
+    [
+     "chibi",
+     1
+    ]
+   ],
+   "handle": "labeler.unlabeled.fyi",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 25
+  },
+  "did:plc:5dddxo5rkwgtte46zbyrygaz": {
+   "labels": 388,
+   "negations": 106,
+   "expiring": 0,
+   "inert": 12,
+   "active": 130,
+   "active_subjects": 63,
+   "retracted_pairs": 64,
+   "kinds": {
+    "account": 388
+   },
+   "first": "2024-10-29T20:09:58.385Z",
+   "last": "2026-09-21T03:57:18.519Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "mi-toki-pona",
+     44
+    ],
+    [
+     "o-pona-e-mi",
+     19
+    ],
+    [
+     "o-toki-pona-tawa-mi",
+     17
+    ],
+    [
+     "sitelen-pona",
+     12
+    ],
+    [
+     "mi-wawa",
+     9
+    ],
+    [
+     "mi-kama-sona",
+     9
+    ],
+    [
+     "mi-pana-e-sona",
+     8
+    ],
+    [
+     "sitelen-sitelen",
+     4
+    ]
+   ],
+   "handle": "namako-pona.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 29
+  },
+  "did:plc:3azdgcotlccdr6mpvyzjro75": {
+   "labels": 2,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 2,
+   "active_subjects": 2,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 2
+   },
+   "first": "2026-08-25T21:52:47.902Z",
+   "last": "2026-09-03T11:07:52.450Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "beat-the-swordmaster",
+     2
+    ]
+   ],
+   "handle": "swordmasterbot.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 1
+  },
+  "did:plc:rxm3vyv47lskp72vhv4m77k6": {
+   "labels": 27,
+   "negations": 6,
+   "expiring": 21,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 1,
+   "kinds": {
+    "account": 27
+   },
+   "first": "2026-08-25T14:13:17.305177322Z",
+   "last": "2026-10-16T07:19:26.05461968Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": "atap.eurosky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:sfpzzg7pbixuvq5iay34xeou": {
+   "labels": 473,
+   "negations": 2,
+   "expiring": 0,
+   "inert": 0,
+   "active": 471,
+   "active_subjects": 269,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 473
+   },
+   "first": "2026-09-06T05:38:55.117022546Z",
+   "last": "2026-09-26T02:02:13.183395198Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "media",
+     165
+    ],
+    [
+     "sounders",
+     71
+    ],
+    [
+     "national-mls",
+     55
+    ],
+    [
+     "national-nwsl",
+     33
+    ],
+    [
+     "official-team",
+     17
+    ],
+    [
+     "nwsl-kansas-city-current",
+     7
+    ],
+    [
+     "nwsl-seattle-reign",
+     7
+    ],
+    [
+     "nwsl-washington-spirit",
+     7
+    ]
+   ],
+   "handle": "soccer-labels.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 1
+  },
+  "did:plc:znr5khrt5sbsdj67fde5w7h4": {
+   "labels": 260854,
+   "negations": 9039,
+   "expiring": 0,
+   "inert": 0,
+   "active": 251815,
+   "active_subjects": 203545,
+   "retracted_pairs": 7895,
+   "kinds": {
+    "post": 260854
+   },
+   "first": "2026-09-06T14:54:08.931Z",
+   "last": "2026-10-21T08:58:38.334Z",
+   "latency_s": {
+    "n": 194367,
+    "p50": 1.906,
+    "p90": 8.915596
+   },
+   "top_values": [
+    [
+     "politik-de-afd",
+     101641
+    ],
+    [
+     "politik-de-cdu",
+     61635
+    ],
+    [
+     "politik-de-spd",
+     29935
+    ],
+    [
+     "politik-de-linke",
+     13732
+    ],
+    [
+     "politik-de-alltag",
+     9887
+    ],
+    [
+     "politik-de-csu",
+     9017
+    ],
+    [
+     "politik-de-fdp",
+     8266
+    ],
+    [
+     "politik-de-bsw",
+     7527
+    ]
+   ],
+   "handle": "politics-labeler.bsky.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 0,
+   "accounts": 0,
+   "accounts_colabelled": 0
+  },
+  "did:plc:ar7c4by46qjdydhdevvrndac": {
+   "labels": 2767041,
+   "negations": 87917,
+   "expiring": 130301,
+   "inert": 324808,
+   "active": 2563720,
+   "active_subjects": 2430288,
+   "retracted_pairs": 64068,
+   "kinds": {
+    "post": 2384769,
+    "account": 314233,
+    "profile": 40380,
+    "other-record": 27659
+   },
+   "first": "2026-09-02T09:30:34.389Z",
+   "last": "2026-10-21T08:36:24.019Z",
+   "latency_s": {
+    "n": 197551,
+    "p50": 3.989,
+    "p90": 17.119
+   },
+   "top_values": [
+    [
+     "porn",
+     1833763
+    ],
+    [
+     "sexual",
+     488936
+    ],
+    [
+     "!takedown",
+     141457
+    ],
+    [
+     "nudity",
+     40629
+    ],
+    [
+     "needs-review",
+     32134
+    ],
+    [
+     "graphic-media",
+     10731
+    ],
+    [
+     "sexual-figurative",
+     8301
+    ],
+    [
+     "intolerant",
+     2721
+    ]
+   ],
+   "handle": "moderation.bsky.app",
+   "category": "protective",
+   "windowed": true,
+   "likes": 1001,
+   "accounts": 144407,
+   "accounts_colabelled": 11777
+  },
+  "did:plc:67jyxopfoa7min5tlsdhhe7a": {
+   "labels": 4,
+   "negations": 4,
+   "expiring": 0,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 4,
+   "kinds": {
+    "post": 4
+   },
+   "first": "2026-09-11T15:40:56.312Z",
+   "last": "2026-09-12T06:25:14.653Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": "moderation.atmosphere.money",
+   "category": "protective",
+   "windowed": false,
+   "likes": 1,
+   "accounts": 0,
+   "accounts_colabelled": 0
+  },
+  "did:plc:ihg4rp3nubd5jffbybanhah4": {
+   "labels": 53699,
+   "negations": 4362,
+   "expiring": 0,
+   "inert": 0,
+   "active": 44975,
+   "active_subjects": 44975,
+   "retracted_pairs": 3640,
+   "kinds": {
+    "account": 53699
+   },
+   "first": "2026-09-13T17:39:45.691Z",
+   "last": "2026-10-21T08:55:15.177Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "sunglasses",
+     44975
+    ]
+   ],
+   "handle": "sunglasses-labeler.eurosky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 2
+  },
+  "did:plc:6jxmrqrwl6k3wpgpezw4owwp": {
+   "labels": 117,
+   "negations": 2,
+   "expiring": 1,
+   "inert": 116,
+   "active": 114,
+   "active_subjects": 114,
+   "retracted_pairs": 2,
+   "kinds": {
+    "account": 117
+   },
+   "first": "2026-09-03T10:03:01.234Z",
+   "last": "2026-10-14T14:28:19.566Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "wsocial-personal",
+     112
+    ],
+    [
+     "wsocial-org",
+     2
+    ]
+   ],
+   "handle": "moderation.pds-stage.wsocial.dev",
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:wsxvsh3dkqzgxxqxkmo3nnuj": {
+   "labels": 6,
+   "negations": 1,
+   "expiring": 0,
+   "inert": 0,
+   "active": 5,
+   "active_subjects": 5,
+   "retracted_pairs": 1,
+   "kinds": {
+    "post": 5,
+    "account": 1
+   },
+   "first": "2026-10-05T19:58:01.065Z",
+   "last": "2026-10-15T03:29:11.446Z",
+   "latency_s": {
+    "n": 4,
+    "p50": 374405.054,
+    "p90": 444082.559
+   },
+   "top_values": [
+    [
+     "possivel-desinformacao",
+     4
+    ],
+    [
+     "provavel-bot",
+     1
+    ]
+   ],
+   "handle": "contraria-labeler.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:newitj5jo3uel7o4mnf3vj2o": {
+   "labels": 7657900,
+   "negations": 5830,
+   "expiring": 0,
+   "inert": 303128,
+   "active": 7652008,
+   "active_subjects": 7624763,
+   "retracted_pairs": 5830,
+   "kinds": {
+    "post": 7657890,
+    "account": 9,
+    "profile": 1
+   },
+   "first": "2024-03-21T22:46:22.850Z",
+   "last": "2026-10-21T08:59:55.248Z",
+   "latency_s": {
+    "n": 199997,
+    "p50": 4.809,
+    "p90": 55.630999
+   },
+   "top_values": [
+    [
+     "twitter-screenshot",
+     6121098
+    ],
+    [
+     "bluesky-screenshot",
+     775152
+    ],
+    [
+     "news-screenshot",
+     166029
+    ],
+    [
+     "newsmedia-screenshot",
+     133101
+    ],
+    [
+     "altright-screenshot",
+     130036
+    ],
+    [
+     "ngl-screenshot",
+     107858
+    ],
+    [
+     "facebook-screenshot",
+     66804
+    ],
+    [
+     "instagram-screenshot",
+     41949
+    ]
+   ],
+   "handle": "xblock.aendra.dev",
+   "category": "protective",
+   "windowed": false,
+   "likes": 1616,
+   "accounts": 7,
+   "accounts_colabelled": 0
+  },
+  "did:plc:oub2sr5miponqkvdf3awv5qn": {
+   "labels": 166863,
+   "negations": 62,
+   "expiring": 0,
+   "inert": 0,
+   "active": 166739,
+   "active_subjects": 146709,
+   "retracted_pairs": 58,
+   "kinds": {
+    "non-atproto": 32295,
+    "post": 134568
+   },
+   "first": "2026-09-22T00:12:04.566Z",
+   "last": "2026-10-21T08:57:40.443Z",
+   "latency_s": {
+    "n": 134512,
+    "p50": 38968770.523456,
+    "p90": 79799402.346867
+   },
+   "top_values": [
+    [
+     "dutch",
+     144341
+    ],
+    [
+     "nl-zuid-holland",
+     4279
+    ],
+    [
+     "nl-noord-holland",
+     2916
+    ],
+    [
+     "nl-noord-brabant",
+     2183
+    ],
+    [
+     "nl-groningen",
+     1909
+    ],
+    [
+     "nl-gelderland",
+     1834
+    ],
+    [
+     "nl-utrecht",
+     1670
+    ],
+    [
+     "nl-friesland",
+     1565
+    ]
+   ],
+   "handle": "news-aggregator.eurosky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:nsl2x6tgtkcasyhwrj4k24sm": {
+   "labels": 25,
+   "negations": 1,
+   "expiring": 1,
+   "inert": 2,
+   "active": 23,
+   "active_subjects": 21,
+   "retracted_pairs": 1,
+   "kinds": {
+    "profile": 1,
+    "account": 24
+   },
+   "first": "2026-09-29T08:59:35.829Z",
+   "last": "2026-10-02T09:56:04.102Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "boop",
+     16
+    ],
+    [
+     "bsky-client",
+     5
+    ],
+    [
+     "calls-them-jaronas",
+     1
+    ],
+    [
+     "!warn",
+     1
+    ]
+   ],
+   "handle": "labeler.tenna.party",
+   "category": "protective",
+   "windowed": false,
+   "likes": 1,
+   "accounts": 21,
+   "accounts_colabelled": 1
+  },
+  "did:plc:tzernbas65q4wch3fstxnb6o": {
+   "labels": 58,
+   "negations": 22,
+   "expiring": 36,
+   "inert": 0,
+   "active": 7,
+   "active_subjects": 5,
+   "retracted_pairs": 2,
+   "kinds": {
+    "account": 58
+   },
+   "first": "2026-09-29T12:54:37.579016814Z",
+   "last": "2026-10-17T13:09:01.260957391Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "verified-human",
+     5
+    ],
+    [
+     "verified-name",
+     2
+    ]
+   ],
+   "handle": "acc-athumi.eu",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:fzoxvf3f4lma7fwaswjy7fal": {
+   "labels": 13,
+   "negations": 4,
+   "expiring": 2,
+   "inert": 3,
+   "active": 7,
+   "active_subjects": 6,
+   "retracted_pairs": 4,
+   "kinds": {
+    "account": 11,
+    "post": 1,
+    "profile": 1
+   },
+   "first": "2026-10-02T22:10:36.907Z",
+   "last": "2026-10-04T08:51:30.259Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "spam",
+     4
+    ],
+    [
+     "scam",
+     2
+    ],
+    [
+     "!hide",
+     1
+    ]
+   ],
+   "handle": "moderace.atproto.cz",
+   "category": "protective",
+   "windowed": false,
+   "likes": 1,
+   "accounts": 5,
+   "accounts_colabelled": 5
+  },
+  "did:plc:lpncv7lmktxkwts6dduldjue": {
+   "labels": 4,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 4,
+   "active_subjects": 4,
+   "retracted_pairs": 0,
+   "kinds": {
+    "account": 2,
+    "post": 2
+   },
+   "first": "2026-10-01T18:58:17.734Z",
+   "last": "2026-10-01T19:13:03.379Z",
+   "latency_s": {
+    "n": 2,
+    "p50": 4285.108999,
+    "p90": 4285.108999
+   },
+   "top_values": [
+    [
+     "banger",
+     2
+    ],
+    [
+     "certified-poaster",
+     1
+    ],
+    [
+     "poaster",
+     1
+    ]
+   ],
+   "handle": "poasters.club",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 2
+  },
+  "did:plc:hzjwybpjds675eb5f2pcygwy": {
+   "labels": 103,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 103,
+   "active_subjects": 73,
+   "retracted_pairs": 0,
+   "kinds": {
+    "post": 103
+   },
+   "first": "2026-10-15T10:57:16.248Z",
+   "last": "2026-10-15T10:58:01.855Z",
+   "latency_s": {
+    "n": 103,
+    "p50": 19.840724,
+    "p90": 26.246554
+   },
+   "top_values": [
+    [
+     "government",
+     21
+    ],
+    [
+     "crime",
+     7
+    ],
+    [
+     "election",
+     6
+    ],
+    [
+     "business-information",
+     6
+    ],
+    [
+     "immigration-policy",
+     3
+    ],
+    [
+     "computing-and-information-technology",
+     3
+    ],
+    [
+     "social-sciences",
+     3
+    ],
+    [
+     "market-and-exchange",
+     3
+    ]
+   ],
+   "handle": "newslabeler.eurosky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 1
+  },
+  "did:plc:h5wgui5fkurmgeno5mcpqfgv": {
+   "labels": 4,
+   "negations": 2,
+   "expiring": 2,
+   "inert": 0,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 1,
+   "kinds": {
+    "account": 4
+   },
+   "first": "2026-10-05T22:42:08.437Z",
+   "last": "2026-10-13T15:12:55.187Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": "spooktober-labeler.katerstrophal.world",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 1
+  },
+  "did:plc:msjyuavxk2kuhrzrxl76mxpe": {
+   "labels": 1467,
+   "negations": 55,
+   "expiring": 0,
+   "inert": 0,
+   "active": 394,
+   "active_subjects": 394,
+   "retracted_pairs": 10,
+   "kinds": {
+    "account": 1467
+   },
+   "first": "2025-02-18T23:41:31.339Z",
+   "last": "2026-10-07T21:22:02.629Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "labour",
+     276
+    ],
+    [
+     "liberal-democrat",
+     64
+    ],
+    [
+     "labour-co-operative",
+     30
+    ],
+    [
+     "conservative",
+     7
+    ],
+    [
+     "green",
+     4
+    ],
+    [
+     "scottish-national-party",
+     3
+    ],
+    [
+     "plaid-cymru",
+     3
+    ],
+    [
+     "independent",
+     2
+    ]
+   ],
+   "handle": "parties.mplabeller.uk",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 12
+  },
+  "did:plc:5e3m6zcbnrnwxvxi7muwcu57": {
+   "labels": 2,
+   "negations": 1,
+   "expiring": 0,
+   "inert": 1,
+   "active": 1,
+   "active_subjects": 1,
+   "retracted_pairs": 1,
+   "kinds": {
+    "other-record": 2
+   },
+   "first": "2026-10-10T00:04:23.975Z",
+   "last": "2026-10-10T00:40:01.196Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "!takedown",
+     1
+    ]
+   ],
+   "handle": "moderation.blampow.com",
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:ztvspwyz7wgfluacz327meu4": {
+   "labels": 57,
+   "negations": 1,
+   "expiring": 0,
+   "inert": 0,
+   "active": 55,
+   "active_subjects": 47,
+   "retracted_pairs": 1,
+   "kinds": {
+    "account": 6,
+    "post": 51
+   },
+   "first": "2026-10-15T12:18:51.310Z",
+   "last": "2026-10-20T09:38:49.122Z",
+   "latency_s": {
+    "n": 50,
+    "p50": 94623.538339,
+    "p90": 164425.04456
+   },
+   "top_values": [
+    [
+     "odio-racista",
+     31
+    ],
+    [
+     "machismo",
+     10
+    ],
+    [
+     "extrema-derecha",
+     8
+    ],
+    [
+     "lgtbifobia",
+     4
+    ],
+    [
+     "spam",
+     2
+    ]
+   ],
+   "handle": "etiquetasodio.bsky.social",
+   "category": "protective",
+   "windowed": false,
+   "likes": 1,
+   "accounts": 6,
+   "accounts_colabelled": 2
+  },
+  "did:plc:25fzqofm2xkx27bcaicxbyxk": {
+   "labels": 7,
+   "negations": 2,
+   "expiring": 0,
+   "inert": 0,
+   "active": 3,
+   "active_subjects": 3,
+   "retracted_pairs": 1,
+   "kinds": {
+    "other-record": 4,
+    "account": 3
+   },
+   "first": "2026-10-16T21:21:04.640Z",
+   "last": "2026-10-21T02:32:26.541Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "!takedown",
+     3
+    ]
+   ],
+   "handle": "handle.invalid",
+   "category": "protective",
+   "windowed": false,
+   "likes": 0,
+   "accounts": 3,
+   "accounts_colabelled": 1
+  },
+  "did:plc:zy2alh2t6ar34a4powk32u6o": {
+   "labels": 3,
+   "negations": 1,
+   "expiring": 0,
+   "inert": 1,
+   "active": 2,
+   "active_subjects": 2,
+   "retracted_pairs": 1,
+   "kinds": {
+    "profile": 3
+   },
+   "first": "2026-10-18T05:28:53.593Z",
+   "last": "2026-10-18T05:30:32.880Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [
+    [
+     "tpn",
+     2
+    ]
+   ],
+   "handle": "labeler.protogen.at",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:hd64sxbjuk7frdbzu77tmbnv": {
+   "labels": 123,
+   "negations": 28,
+   "expiring": 0,
+   "inert": 65,
+   "active": 58,
+   "active_subjects": 58,
+   "retracted_pairs": 28,
+   "kinds": {
+    "post": 69,
+    "account": 54
+   },
+   "first": "2026-10-19T06:29:49.820Z",
+   "last": "2026-10-21T08:46:30.444Z",
+   "latency_s": {
+    "n": 54,
+    "p50": 155023.068,
+    "p90": 2351360.844
+   },
+   "top_values": [
+    [
+     "post-trophies-one",
+     28
+    ],
+    [
+     "account-bronze",
+     28
+    ],
+    [
+     "post-trophies-three",
+     1
+    ],
+    [
+     "post-trophies-two",
+     1
+    ]
+   ],
+   "handle": "whataskeet-labeler.bsky.social",
+   "category": "descriptive",
+   "windowed": false,
+   "likes": 1
+  },
+  "did:plc:shnsowbkbeqkeexyqdb7r4kq": {
+   "labels": 1,
+   "negations": 1,
+   "expiring": 0,
+   "inert": 1,
+   "active": 0,
+   "active_subjects": 0,
+   "retracted_pairs": 1,
+   "kinds": {
+    "other-record": 1
+   },
+   "first": "2026-10-21T00:44:03.512Z",
+   "last": "2026-10-21T00:44:03.512Z",
+   "latency_s": {
+    "n": 0,
+    "p50": null,
+    "p90": null
+   },
+   "top_values": [],
+   "handle": "moderation.tps.social",
+   "category": "undeclared",
+   "windowed": false,
+   "likes": 0
+  },
+  "did:plc:6plvpxzrnka5vmydjmvjujze": {
+   "labels": 2999959,
+   "negations": 0,
+   "expiring": 0,
+   "inert": 0,
+   "active": 2999563,
+   "active_subjects": 2999546,
+   "retracted_pairs": 0,
+   "kinds": {
+    "post": 2999959
+   },
+   "first": "2026-09-28T17:28:41.903Z",
+   "last": "2026-10-21T08:57:28.350Z",
+   "latency_s": {
+    "n": 198990,
+    "p50": 88.889,
+    "p90": 2477.834
+   },
+   "top_values": [
+    [
+     "sexual",
+     918397
+    ],
+    [
+     "porn",
+     638586
+    ],
+    [
+     "sexual-figurative",
+     525872
+    ],
+    [
+     "intolerant",
+     272864
+    ],
+    [
+     "nudity",
+     176520
+    ],
+    [
+     "threat",
+     158437
+    ],
+    [
+     "rude",
+     150067
+    ],
+    [
+     "graphic-media",
+     85109
+    ]
+   ],
+   "handle": "primsky-labeler.bsky.social",
+   "category": "protective",
+   "windowed": true,
+   "likes": 3,
+   "accounts": 0,
+   "accounts_colabelled": 0
+  }
+ },
+ "accounts_by_protective_labelers": 2874701,
+ "accounts_with_2plus_protective": 89422
+}

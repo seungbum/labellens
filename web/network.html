@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LabelLens Network</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <h1>LabelLens</h1>
+      <p class="lede">A snapshot of every public labeling service on Bluesky: who is reachable, how much they label, and how often labels are retracted or have no effect.</p>
+      <nav class="tabs"><a href="./">Inspect</a><a href="network.html" aria-current="page">Network</a><a href="about.html">About</a></nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <div id="tiles" class="tiles"></div>
+    <h2>Label volume by labeler</h2>
+    <p class="muted small" id="volume-note"></p>
+    <div id="volume" class="hbars"></div>
+    <h2>How much does a stack change what people see?</h2>
+    <p class="muted small">A uniform sample of labelled posts and accounts (one in a thousand), shown through each lens with the official moderation code. A post carries its author's account labels, as in Bluesky clients.</p>
+    <div class="table-wrap"><table id="lens-table"></table></div>
+    <h2>All labelers</h2>
+    <p class="muted small">Click a column to sort. Figures cover the labels each service replayed when collected; services marked "window" were collected from a recent window only.</p>
+    <div class="table-wrap"><table id="table"></table></div>
+  </main>
+  <footer class="wrap muted small" id="foot"></footer>
+  <script src="network.js"></script>
+</body>
+</html>

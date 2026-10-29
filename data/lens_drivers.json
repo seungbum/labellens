@@ -1,0 +1,24 @@
+{
+ "n": 21684,
+ "top": "pef-moderation.org",
+ "top_did": "did:plc:uac6er53o2pvr5y2qmvaf7hw",
+ "top_n": 20643,
+ "top_index": 7,
+ "by_labeler": {
+  "pef-moderation.org": 20643,
+  "skywatch.blue": 3621,
+  "profile-labels.bossett.social": 995,
+  "shadowbanner.bsky.social": 717,
+  "xblock.aendra.dev": 590,
+  "labeler.blackwall.gg": 543,
+  "panslawek.pl": 271,
+  "moderation.blacksky.app": 149,
+  "labeler.urbanism.plus": 133,
+  "moderation.northsky.social": 87,
+  "alt-text-labeler.bsky.social": 86,
+  "label.wol.blue": 66,
+  "mod.shawn.party": 44,
+  "moderation.medsky.network": 17,
+  "laelaps.fyi": 5
+ }
+}

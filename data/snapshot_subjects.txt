@@ -1,0 +1,4 @@
+# Accounts whose labels from services without CORS are published with the site
+# (src/build_snapshot.py). Only the organisational example accounts in the interface.
+did:plc:eclio37ymobqex2ncko63h4r  # nytimes.com
+did:plc:z72i7hdynmk6r22z27h6tvur  # bsky.app

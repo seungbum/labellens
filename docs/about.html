@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About LabelLens</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <h1>LabelLens</h1>
+      <p class="lede">How the census and the lenses work, what they cannot see, and how the data is handled.</p>
+      <nav class="tabs"><a href="./">Inspect</a><a href="network.html">Network</a><a href="about.html" aria-current="page">About</a></nav>
+    </div>
+  </header>
+  <main class="wrap prose">
+    <h2>Stackable moderation in one paragraph</h2>
+    <p>On Bluesky, moderation is split into <em>labels</em>. Any account can run a labeling service that attaches
+      short values such as <code>spam</code> or <code>ai-imagery</code> to posts and accounts. Each user subscribes to
+      up to twenty such services on top of Bluesky's own, and chooses per label whether to hide, warn or ignore.
+      Two people looking at the same post can therefore see different things, and nobody, including the author,
+      sees the whole picture.</p>
+
+    <h2>The census</h2>
+    <p>When you inspect an item, your browser sends one <code>com.atproto.label.queryLabels</code> request to every
+      labeler in the directory, asking about the post, its author's account and the author's profile record.
+      Answers are folded into the labels in force now: a later negation retracts a label, and a label past its
+      expiry time no longer applies. Labeler services that are offline are reported as unreachable, and so are
+      those that do not allow browser requests (no CORS header). For the two example accounts only, the labels
+      those services had issued at the last measurement are shown instead, marked <em>snapshot</em>; the site
+      does not republish such labels for anyone else. Declared endpoints that are not service URLs (localhost,
+      a web page) are left out of the directory, and a service that answers "too many requests" is not asked again.</p>
+
+    <h2>The lenses</h2>
+    <p>Each lens is a set of subscriptions. LabelLens feeds the census result and the labelers' own label
+      definitions into the moderation code of the official Bluesky client library (<code>@atproto/api</code>) and
+      reports what that code decides for a feed (posts) or a profile list (accounts), with default preferences and
+      adult content off. The lenses are:</p>
+    <ul>
+      <li><strong>Logged-out visitor</strong>: Bluesky's own moderation only. This is also what the public
+        read-only API returns: it ignores requests for third-party labels.</li>
+      <li><strong>Popular stack</strong>: the twenty most-liked labelers.</li>
+      <li><strong>Protective stack</strong>: the twenty most-liked labelers that declare at least one label which hides, blurs or warns.</li>
+      <li><strong>Your stack</strong>: any combination you pick from the labelers that labelled the item.</li>
+    </ul>
+
+    <h2>Limits</h2>
+    <ul>
+      <li>The directory is a snapshot (see the footer date) of labeler services declared on the network.</li>
+      <li>A labeler's answer is what its server returns now. LabelLens does not verify label signatures.</li>
+      <li>Lenses use default preferences; real users may have changed per-label settings, muted words or blocks.</li>
+      <li>Labels with values a labeler never declared are shown but have no effect, because clients ignore them.</li>
+    </ul>
+
+    <h2>Data and ethics</h2>
+    <p>LabelLens only reads public data through public APIs, needs no login and stores nothing. Every request goes
+      from your browser straight to Bluesky or to the labeler, so each labeler you query learns your IP address and
+      which item you asked about. Official Bluesky apps do not contact labelers: they ask Bluesky's servers, which
+      attach the labels of the services the user subscribes to (the <code>atproto-accept-labelers</code> header of
+      the AT Protocol). Using LabelLens therefore exposes more than ordinary use, and the site says so before the
+      first query. <strong>Privacy mode</strong> limits queries to Bluesky's own labeler and the snapshot.</p>
+    <p>The snapshot of services without CORS published with the site covers only the two example accounts, and
+      the site build refuses any other snapshot. The live demo at the conference runs this same public build. The
+      measurement on the Network page reports aggregate figures per labeler service and does not publish lists of
+      labelled accounts or posts. Labels can be wrong or hostile; showing a label here does not endorse it.</p>
+    <p>To have something removed from this site or its repository, open an issue on
+      <a href="https://github.com/seungbum/labellens/issues">GitHub</a> or write to
+      <a href="mailto:seungbum.ju@samsung.com">seungbum.ju@samsung.com</a>.</p>
+  </main>
+  <footer class="wrap muted small"><a href="labellens_demo.mp4">Two-minute video</a> · <a href="https://github.com/seungbum/labellens">Source</a></footer>
+</body>
+</html>

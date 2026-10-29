@@ -1,0 +1,47 @@
+\section{Measurement and Evaluation}
+\label{sec:eval}
+\textbf{Data.} On \measureDate, from a cloud workspace, we listed the labeler directory, probed every endpoint once, and replayed each labeler's label stream with \texttt{subscribeLabels} from sequence zero. A stream that stopped before the sequence number seen live at its start was resumed from its last event (\collReconnected services needed this). For the \windowedN services whose stream had passed sequence number three million, only the last three million were replayed (Table~\ref{tab:windowed}). Replay reached the live head for \collComplete services and stopped short of it for \collIncomplete; for \collUnknown quiet services that emitted no live event, completeness cannot be checked. Because the logged-out lens uses Bluesky's labeler alone, its row in Table~\ref{tab:lens} reflects that labeler's window, which starts on \bskyWindowFirst. A run from a GitHub-hosted runner on \altDate\ gave similar reachability (\altAnswering answering, \altBrowser browser-readable), so the failures below are the services', not the vantage point's. Generative AI use is described in the acknowledgments.
+
+\textbf{Reachability.} Of \labDeclared accounts that declare a labeler, \labEndpoint publish an endpoint, of which \labInvalidEndpoint are not valid service URLs (e.g.\ \texttt{localhost} or a web page). Only \labAnswering (\labAnsweringPct\% of published endpoints) answer a \texttt{queryLabels} request; among the valid ones, the rest cannot be reached (\labConnFail), fail TLS (\labTlsFail) or answer with an HTTP error or a body that is not JSON (\labHttpFail). Of the answering services, \labBrowser (\labBrowserPctOfAnswering\%) send a CORS header that admits the site's origin. A browser-only client such as a third-party app or LabelLens itself therefore sees at most \labBrowserPctOfEndpoint\% of declared endpoints, which is why the census needs its snapshot fallback. Labeler operators can fix this with one response header, and an AppView query for third-party labels would remove the need for per-labeler fan-out.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\columnwidth]{figures/ui_network.png}
+  \caption{Label volume of the ten largest services on the Network page (\measureDate). Services whose stream had passed sequence number three million, such as \texttt{moderation.bsky.app}, were replayed from a recent window, so their bars count that window only.}
+  \label{fig:network}
+  \Description{Horizontal bar chart of label volume for the ten labelers with the most labels, led by pef-moderation.org and label.haus with about twenty million each.}
+\end{figure}
+
+\textbf{Labels.} We collected \labLabelsM million labels from \labCollected services (\labPostPct\% on posts, \labAccountPct\% on accounts). Volume is concentrated: the five largest services issued \labTopFivePct\% of all labels. \labInertPct\% of labels carry a value their labeler never declared; clients drop such labels silently, and for \labInertMajority services they are the majority. \labRetractedPct\% of (subject, value) pairs end retracted. Protective labelers differ widely in speed: among the \latN with at least 100 post labels, the median time from post creation to label is under ten seconds for \latFastN (automated classifiers) and over an hour for \latSlowN.
+
+\textbf{Overlap and divergence.} Stacks rarely agree because they rarely overlap: of the \accProtM million accounts labelled by any protective labeler, \accTwoPlusPct\% are labelled by two or more. To measure what this means for readers, we drew a uniform sample of labelled subjects (a subject is kept when its hash is 0 modulo 1{,}000; \lensPostN posts and \lensAcctN accounts; a post carries its author's account labels) and evaluated each lens offline with the same moderation code as the site (Table~\ref{tab:lens}). For posts, the protective stack changes the presentation of \lensPostProtDiffPct\% relative to a logged-out visitor: \lensPostProtHiddenPct\% are hidden instead of \lensPostPublicHiddenPct\%, and \lensPostProtHardDiffPct\,pp more are hidden or carry a warning. Most of this comes from accounts, since clients apply an author's account labels to each of their posts: judged on their own labels alone, the protective stack changes \lensPostProtPostOnlyDiffPct\% of posts (\lensPostProtPostOnlyHardPct\,pp more hidden or warned), mostly with info badges. The popular stack changes \lensPostPopDiffPct\% (\lensPostPopPostOnlyDiffPct\% on the posts' own labels), almost all with info badges: the most-liked labelers are mostly descriptive (badges, interests, verification), so popularity is a poor guide to protection. The effect is concentrated: \lensTopDriverPct\% of the changed posts carry a label from one service, \texttt{\lensTopDriver}, which flags links to other platforms and hides by default the posts of accounts it labels as spreading disinformation or abusive. Without it the protective stack changes \lensPostProtNoTopDiffPct\% and hides \lensPostNoTopHiddenPct\% (\lensPostProtSwapTopDiffPct\% changed when the next most-liked protective labeler takes its place), while leaving out any other single service gives \lensPostLooMinPct--\lensPostLooMaxPct\%. Which labelers a user adds matters more than how many, and this is exactly what the census and the editable stack expose for a single item. Subscribing to the labelers that labelled the item (at most twenty) changes \lensPostAllDiffPct\% of posts.
+
+\begin{table}[t]
+  \caption{How labelled items are shown under each lens: percent of items in a uniform 0.1\% sample of the subjects in the collected streams; $\Delta$ is the change in hidden or warned items against the logged-out row, in points. Rows are constructed subscription sets, not observed user subscriptions.}
+  \label{tab:lens}
+  \small
+  \begin{tabular}{@{}lrrrrr@{}}
+    \toprule
+    Lens & Hidden & Warned & Info & As is & $\Delta$ \\
+    \midrule
+    \lensTableRows
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{table}[t]
+  \caption{Services replayed over their last three million sequence numbers: earliest label collected, labels collected, and whether replay reached the live head.}
+  \label{tab:windowed}
+  \footnotesize
+  \begin{tabular}{@{}lrrr@{}}
+    \toprule
+    Service & From & Labels (M) & Complete \\
+    \midrule
+    \windowedRows
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\textbf{Census performance and accuracy.} We timed the census on \censusN items from the sample (another \censusGone could no longer be loaded: deleted, suspended or hidden) in headless Chromium from our workspace. On the public site, the lenses appeared \lensSecondsMedian\,s after the click at the median (\lensSecondsMax\,s at most; the first census pass took \censusFirstPassMedian\,s), with \censusPublicAnswered labelers answering live for every item; the recheck of silent services finished after \censusTotalMedian\,s and recovered at most \censusRevivedMax more per item. A local build that loads the full snapshot, which we do not publish, raises the median to \censusFullAnswered answering services. Against the labels in the collected streams, the census on the public site reproduced every label for \censusExactPct\% of \censusAccN sampled items (\censusLabelRecallPct\% of labels). Every difference came from services without CORS, whose labels the public snapshot leaves out (\censusAccNoCors items), or were older labels that the census found but our windowed collection missed (\censusAccWindow items); no service was offline and no label had been issued or retracted since collection.
+
+\textbf{Limitations.} Lenses are constructed subscription sets: real subscriptions are kept in users' private preferences, and likes are only a proxy for them. Lenses use default per-label preferences, while users may change them, mute words or block accounts. The sample conditions on subjects that some collected labeler labelled, and windowed services contribute only recent labels. The offline evaluation omits authors' self-labels, which live in post records rather than label streams. LabelLens does not verify label signatures. Snapshot data ages from its collection date, and all measurements come from one run on \measureDate.
